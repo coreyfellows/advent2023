@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 import re
-with open("1.txt", "r") as f:
+with open("data.txt", "r") as f:
     lines = list(map(str.strip, f.readlines()))
 
 
