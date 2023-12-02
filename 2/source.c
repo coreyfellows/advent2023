@@ -9,22 +9,22 @@ int is_digit(char c) {
     return c >= '0' || c <= '9';
 }
 
-int is_word(char* string, char* word) {
+int startswith(char* string, char* start) {
 	// if we've fallen off the word, we've found it
-	if (!*word) {
+	if (!*start) {
 		return 1;
 	}
 
 	// if we've fallen off the string we haven't
-	if(!*string || !is_alpha(*string)) {
+	if(!*string) {
 		return 0;
 	}
 	//and if the strings dont match, we havent found it either.
-	if (*string != *word) {
+	if (*string != *start) {
 		return 0;
 	}
 
-	return is_word(string+1, word+1);
+	return startswith(string+1, start+1);
 }
 
 int ipow(int a, int b) {
@@ -52,7 +52,7 @@ int parse_int(char* start, int* result) {
 
 
 int check_game(char* game_start) {
-    if (!is_word(game_start, "Game")) {
+    if (!startswith(game_start, "Game")) {
         return 0;
     }
     //advance to game id
@@ -65,9 +65,9 @@ int check_game(char* game_start) {
         int number = 0;
         game_start += 1 + parse_int(game_start, &number);
         if(
-            (is_word(game_start, "blue") && number > 14) ||
-            (is_word(game_start, "green") && number > 13) ||
-            (is_word(game_start, "red") && number > 12)
+            (startswith(game_start, "blue") && number > 14) ||
+            (startswith(game_start, "green") && number > 13) ||
+            (startswith(game_start, "red") && number > 12)
             ) {
             return 0;
         }
@@ -79,7 +79,7 @@ int check_game(char* game_start) {
 
 int check_game_fewest(char* game_start) {
 
-    if (!is_word(game_start, "Game")) {
+    if (!startswith(game_start, "Game")) {
         return 0;
     }
     //advance to game id
@@ -95,15 +95,15 @@ int check_game_fewest(char* game_start) {
     while(*game_start) {
         int number = 0;
         game_start += 1 + parse_int(game_start, &number);
-        if(is_word(game_start, "blue") && number > blue) {
+        if(startswith(game_start, "blue") && number > blue) {
             blue = number;
         }
 
-        if(is_word(game_start, "red") && number > red) {
+        if(startswith(game_start, "red") && number > red) {
             red = number;
         }
 
-        if(is_word(game_start, "green") && number > green) {
+        if(startswith(game_start, "green") && number > green) {
             green = number;
         }
 
