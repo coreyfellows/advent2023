@@ -272,7 +272,7 @@ void solution_1() {
 	printf("\n\nVisited elements\n\n");
 	for (int y = 0; y < HEIGHT; ++y) {
 		for (int x = 0; x < WIDTH; ++x) {
-			printf("%d", get_element(x,y)->visited);
+			get_element(x,y)->visited ? printf("X") : printf(" ");
 		}
 		printf("\n");
 	}
@@ -283,7 +283,7 @@ void solution_1() {
 			if (get_element(x,y)->distance) {
 				printf("%c", ((get_element(x,y)->distance- 1)%26) + 'a' );
 			} else {
-				printf(".");
+				printf(" ");
 			}
 		}
 		printf("\n");
