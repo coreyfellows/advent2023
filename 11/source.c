@@ -54,7 +54,7 @@ char* get_element(int x, int y) {
 }
 
 uint calculate_distance(struct Galaxy* a, struct Galaxy* b) {
-	return abs((long)a->x - (long)b->x) + abs((long)a->y - (long)b->y);
+	return abs(a->x - b->x) + abs(a->y - b->y);
 }
 
 void solution(uint age) {

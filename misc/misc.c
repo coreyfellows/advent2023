@@ -52,7 +52,7 @@ uint parse_uint(char* start, uint* result) {
 }
 
 
-uint parse_int(char* start, int* result) {
+uint parse_int(char* start, long* result) {
 
 	int length = 0;
 	int multiplier = 1;
