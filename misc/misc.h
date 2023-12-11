@@ -1,6 +1,5 @@
 #pragma once
-#define uint unsigned int
-
+#define uint unsigned long
 
 uint is_alpha(char c);
 uint is_digit(char c);
