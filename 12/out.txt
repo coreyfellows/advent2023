@@ -1,0 +1,102 @@
+with range 3 starting at ?###???????? 3,2,1
+matched range 3 at ###???????? 3,2,1
+with range 2 starting at ??????? 3,2,1
+matched range 2 at ??????? 3,2,1
+with range 1 starting at ???? 3,2,1
+matched range 1 at ???? 3,2,1
+with range 0 starting at ?? 3,2,1
+matched range 1 at ??? 3,2,1
+with range 0 starting at ? 3,2,1
+matched range 1 at ?? 3,2,1
+with range 0 starting at  3,2,1
+matched range 1 at ? 3,2,1
+with range 0 starting at 3,2,1
+matched range 2 at ?????? 3,2,1
+with range 1 starting at ??? 3,2,1
+matched range 1 at ??? 3,2,1
+with range 0 starting at ? 3,2,1
+matched range 1 at ?? 3,2,1
+with range 0 starting at  3,2,1
+matched range 1 at ? 3,2,1
+with range 0 starting at 3,2,1
+matched range 2 at ????? 3,2,1
+with range 1 starting at ?? 3,2,1
+matched range 1 at ?? 3,2,1
+with range 0 starting at  3,2,1
+matched range 1 at ? 3,2,1
+with range 0 starting at 3,2,1
+matched range 2 at ???? 3,2,1
+with range 1 starting at ? 3,2,1
+matched range 1 at ? 3,2,1
+with range 0 starting at 3,2,1
+matched range 2 at ??? 3,2,1
+with range 1 starting at  3,2,1
+matched range 2 at ?? 3,2,1
+with range 1 starting at 3,2,1
+matched range 3 at ##???????? 3,2,1
+with range 2 starting at ?????? 3,2,1
+matched range 2 at ?????? 3,2,1
+with range 1 starting at ??? 3,2,1
+matched range 1 at ??? 3,2,1
+with range 0 starting at ? 3,2,1
+matched range 1 at ?? 3,2,1
+with range 0 starting at  3,2,1
+matched range 1 at ? 3,2,1
+with range 0 starting at 3,2,1
+matched range 2 at ????? 3,2,1
+with range 1 starting at ?? 3,2,1
+matched range 1 at ?? 3,2,1
+with range 0 starting at  3,2,1
+matched range 1 at ? 3,2,1
+with range 0 starting at 3,2,1
+matched range 2 at ???? 3,2,1
+with range 1 starting at ? 3,2,1
+matched range 1 at ? 3,2,1
+with range 0 starting at 3,2,1
+matched range 2 at ??? 3,2,1
+with range 1 starting at  3,2,1
+matched range 2 at ?? 3,2,1
+with range 1 starting at 3,2,1
+matched range 3 at #???????? 3,2,1
+with range 2 starting at ????? 3,2,1
+matched range 2 at ????? 3,2,1
+with range 1 starting at ?? 3,2,1
+matched range 1 at ?? 3,2,1
+with range 0 starting at  3,2,1
+matched range 1 at ? 3,2,1
+with range 0 starting at 3,2,1
+matched range 2 at ???? 3,2,1
+with range 1 starting at ? 3,2,1
+matched range 1 at ? 3,2,1
+with range 0 starting at 3,2,1
+matched range 2 at ??? 3,2,1
+with range 1 starting at  3,2,1
+matched range 2 at ?? 3,2,1
+with range 1 starting at 3,2,1
+matched range 3 at ???????? 3,2,1
+with range 2 starting at ???? 3,2,1
+matched range 2 at ???? 3,2,1
+with range 1 starting at ? 3,2,1
+matched range 1 at ? 3,2,1
+with range 0 starting at 3,2,1
+matched range 2 at ??? 3,2,1
+with range 1 starting at  3,2,1
+matched range 2 at ?? 3,2,1
+with range 1 starting at 3,2,1
+matched range 3 at ??????? 3,2,1
+with range 2 starting at ??? 3,2,1
+matched range 2 at ??? 3,2,1
+with range 1 starting at  3,2,1
+matched range 2 at ?? 3,2,1
+with range 1 starting at 3,2,1
+matched range 3 at ?????? 3,2,1
+with range 2 starting at ?? 3,2,1
+matched range 2 at ?? 3,2,1
+with range 1 starting at 3,2,1
+matched range 3 at ????? 3,2,1
+with range 2 starting at ? 3,2,1
+matched range 3 at ???? 3,2,1
+with range 2 starting at  3,2,1
+matched range 3 at ??? 3,2,1
+with range 2 starting at 3,2,1
+20 -> ?###???????? 3,2,1
