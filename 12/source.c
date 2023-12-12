@@ -54,6 +54,7 @@ uint find_arrangements(char* start, uint* ranges) {
 			count += find_arrangements(start + (*ranges) + 1, ranges+1);
 		}
 		start++;
+
 	}
 	return count;
 }
