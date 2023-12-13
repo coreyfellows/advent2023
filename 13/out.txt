@@ -1,0 +1,4636 @@
+47	.#.####
+101	##..#.#
+101	##..#.#
+47	.#.####
+18	..#..#.
+122	####.#.
+85	#.#.#.#
+37	.#..#.#
+108	##.##..
+82	#.#..#.
+80	#.#....
+823 1964 115 1188 1948 1250 1944 
+width: 7, height: 11
+
+Checking vertical rows
+checking solution at 1
+823 == 1964
+checking solution at 2
+1964 == 115
+checking solution at 3
+115 == 1188
+checking solution at 4
+1188 == 1948
+checking solution at 5
+1948 == 1250
+checking solution at 6
+1250 == 1944
+Checking horizontal rows
+checking solution at 1
+47 == 101
+checking solution at 2
+101 == 101
+47 == 47
+found solution
+solution = 200
+12354	.##.....#....#.
+12354	.##.....#....#.
+5315	..#.#..##....##
+3620	...###...#..#..
+19480	#..##.....##...
+10429	.#.#...#.####.#
+20606	#.#.....######.
+26392	##..###...##...
+18841	#..#..##..##..#
+13568	.##.#.#........
+18841	#..#..##..##..#
+32110	#####.#.##.###.
+8613	.#....##.#..#.#
+6692	..##.#...#..#..
+20260	#..####..#..#..
+1497 25260 28970 3675 7337 2179 253 4692 28936 2831 2000 2008 2831 28936 4692 
+width: 15, height: 15
+
+Checking vertical rows
+checking solution at 1
+1497 == 25260
+checking solution at 2
+25260 == 28970
+checking solution at 3
+28970 == 3675
+checking solution at 4
+3675 == 7337
+checking solution at 5
+7337 == 2179
+checking solution at 6
+2179 == 253
+checking solution at 7
+253 == 4692
+checking solution at 8
+4692 == 28936
+checking solution at 9
+28936 == 2831
+checking solution at 10
+2831 == 2000
+checking solution at 11
+2000 == 2008
+checking solution at 12
+2008 == 2831
+checking solution at 13
+2831 == 28936
+checking solution at 14
+28936 == 4692
+Checking horizontal rows
+checking solution at 1
+12354 == 12354
+found solution
+solution = 100
+771	.##......##
+771	.##......##
+693	.#.#.##.#.#
+1534	#.########.
+1414	#.##....##.
+1530	#.######.#.
+1927	####....###
+1717	##.#.##.#.#
+1795	###......##
+252	...######..
+1975	####.##.###
+253 1821 1781 507 162 427 427 162 475 1781 1821 
+width: 11, height: 11
+
+Checking vertical rows
+checking solution at 1
+253 == 1821
+checking solution at 2
+1821 == 1781
+checking solution at 3
+1781 == 507
+checking solution at 4
+507 == 162
+checking solution at 5
+162 == 427
+checking solution at 6
+427 == 427
+162 == 162
+507 == 475
+checking solution at 7
+427 == 162
+checking solution at 8
+162 == 475
+checking solution at 9
+475 == 1781
+checking solution at 10
+1781 == 1821
+Checking horizontal rows
+checking solution at 1
+771 == 771
+found solution
+solution = 100
+23	....#.###
+335	#.#..####
+384	##.......
+384	##.......
+335	#.#..####
+23	....#.###
+309	#..##.#.#
+354	#.##...#.
+357	#.##..#.#
+484	####..#..
+349	#.#.###.#
+333	#.#..##.#
+484	####..#..
+357	#.##..#.#
+354	#.##...#.
+15871 6180 9471 487 17168 9240 26494 26241 26458 
+width: 9, height: 15
+
+Checking vertical rows
+checking solution at 1
+15871 == 6180
+checking solution at 2
+6180 == 9471
+checking solution at 3
+9471 == 487
+checking solution at 4
+487 == 17168
+checking solution at 5
+17168 == 9240
+checking solution at 6
+9240 == 26494
+checking solution at 7
+26494 == 26241
+checking solution at 8
+26241 == 26458
+Checking horizontal rows
+checking solution at 1
+23 == 335
+checking solution at 2
+335 == 384
+checking solution at 3
+384 == 384
+335 == 335
+23 == 23
+found solution
+solution = 300
+445	##.####.#
+239	.###.####
+455	###...###
+455	###...###
+239	.###.####
+317	#..####.#
+114	..###..#.
+402	##..#..#.
+482	####...#.
+266	#....#.#.
+32	...#.....
+267	#....#.##
+342	#.#.#.##.
+342	#.#.#.##.
+267	#....#.##
+32	...#.....
+266	#....#.#.
+93117 127744 62744 105794 69144 104613 129048 63421 129060 
+width: 9, height: 17
+
+Checking vertical rows
+checking solution at 1
+93117 == 127744
+checking solution at 2
+127744 == 62744
+checking solution at 3
+62744 == 105794
+checking solution at 4
+105794 == 69144
+checking solution at 5
+69144 == 104613
+checking solution at 6
+104613 == 129048
+checking solution at 7
+129048 == 63421
+checking solution at 8
+63421 == 129060
+Checking horizontal rows
+checking solution at 1
+445 == 239
+checking solution at 2
+239 == 455
+checking solution at 3
+455 == 455
+239 == 239
+445 == 317
+checking solution at 4
+455 == 239
+checking solution at 5
+239 == 317
+checking solution at 6
+317 == 114
+checking solution at 7
+114 == 402
+checking solution at 8
+402 == 482
+checking solution at 9
+482 == 266
+checking solution at 10
+266 == 32
+checking solution at 11
+32 == 267
+checking solution at 12
+267 == 342
+checking solution at 13
+342 == 342
+267 == 267
+32 == 32
+266 == 266
+found solution
+solution = 1300
+12873	.##..#..#..#..#
+17261	#....##.##.##.#
+319	......#..######
+319	......#..######
+17261	#....##.##.##.#
+12873	.##..#..#..#..#
+32343	######..#.#.###
+9236	.#..#.....#.#..
+17581	#...#..#.#.##.#
+14414	.###....#..###.
+14414	.###....#..###.
+17581	#...#..#.#.##.#
+9236	.#..#.....#.#..
+32343	######..#.#.###
+8777	.#...#..#..#..#
+9546 17335 17202 306 462 26371 15360 72 26419 15432 6534 32377 15870 6450 32587 
+width: 15, height: 15
+
+Checking vertical rows
+checking solution at 1
+9546 == 17335
+checking solution at 2
+17335 == 17202
+checking solution at 3
+17202 == 306
+checking solution at 4
+306 == 462
+checking solution at 5
+462 == 26371
+checking solution at 6
+26371 == 15360
+checking solution at 7
+15360 == 72
+checking solution at 8
+72 == 26419
+checking solution at 9
+26419 == 15432
+checking solution at 10
+15432 == 6534
+checking solution at 11
+6534 == 32377
+checking solution at 12
+32377 == 15870
+checking solution at 13
+15870 == 6450
+checking solution at 14
+6450 == 32587
+Checking horizontal rows
+checking solution at 1
+12873 == 17261
+checking solution at 2
+17261 == 319
+checking solution at 3
+319 == 319
+17261 == 17261
+12873 == 12873
+found solution
+solution = 300
+16210	.######.#.#..#.
+19507	#..##....##..##
+21970	#.#.#.###.#..#.
+21970	#.#.#.###.#..#.
+19507	#..##....##..##
+16146	.######...#..#.
+21662	#.#.#..#..####.
+20991	#.#...#########
+947	.....###.##..##
+10355	.#.#....###..##
+8737	.#...#...#....#
+984 1059 1464 1634 2032 1061 1452 412 1418 591 2046 24 24 2046 591 
+width: 15, height: 11
+
+Checking vertical rows
+checking solution at 1
+984 == 1059
+checking solution at 2
+1059 == 1464
+checking solution at 3
+1464 == 1634
+checking solution at 4
+1634 == 2032
+checking solution at 5
+2032 == 1061
+checking solution at 6
+1061 == 1452
+checking solution at 7
+1452 == 412
+checking solution at 8
+412 == 1418
+checking solution at 9
+1418 == 591
+checking solution at 10
+591 == 2046
+checking solution at 11
+2046 == 24
+checking solution at 12
+24 == 24
+2046 == 2046
+591 == 591
+found solution
+solution = 12
+23045	#.##.#......#.#
+23045	#.##.#......#.#
+6658	..##.#.......#.
+14040	.##.##.##.##...
+22063	#.#.##...#.####
+25302	##...#.##.#.##.
+9641	.#..#.##.#.#..#
+9641	.#..#.##.#.#..#
+25302	##...#.##.#.##.
+17967	#...##...#.####
+14040	.##.##.##.##...
+6658	..##.#.......#.
+23045	#.##.#......#.#
+6553 756 7943 7171 876 8095 96 756 660 360 660 876 6553 1434 6505 
+width: 15, height: 13
+
+Checking vertical rows
+checking solution at 1
+6553 == 756
+checking solution at 2
+756 == 7943
+checking solution at 3
+7943 == 7171
+checking solution at 4
+7171 == 876
+checking solution at 5
+876 == 8095
+checking solution at 6
+8095 == 96
+checking solution at 7
+96 == 756
+checking solution at 8
+756 == 660
+checking solution at 9
+660 == 360
+checking solution at 10
+360 == 660
+checking solution at 11
+660 == 876
+checking solution at 12
+876 == 6553
+checking solution at 13
+6553 == 1434
+checking solution at 14
+1434 == 6505
+Checking horizontal rows
+checking solution at 1
+23045 == 23045
+found solution
+solution = 100
+1170	..#..#..#..#.
+6901	##.#.####.#.#
+7687	####......###
+8047	#####.##.####
+1386	..#.#.##.#.#.
+7783	####..##..###
+516	...#......#..
+7068	##.###..###..
+612	...#..##..#..
+7021	##.##.##.##.#
+7069	##.###..###.#
+7687	####......###
+1434	..#.##..##.#.
+6145	##..........#
+6925	##.##....##.#
+15035 15035 24076 15353 3253 24724 11872 11872 24724 3253 15353 24076 14907 
+width: 13, height: 15
+
+Checking vertical rows
+checking solution at 1
+15035 == 15035
+found solution
+solution = 1
+41280	.#.#....#.#......
+13057	...##..##.......#
+81708	#..######..#.##..
+57816	.###....###.##...
+44360	.#.#.##.#.#..#...
+29568	..###..###.......
+118007	###..##..####.###
+78644	#..##..##..##.#..
+5649	....#.##....#...#
+119530	###.#..#.###.#.#.
+82098	#.#......#.##..#.
+82098	#.#......#.##..#.
+119530	###.#..#.###.#.#.
+1135 4937 719 8096 3257 1344 1360 3257 8096 719 4937 1135 630 1801 1120 79 2128 
+width: 17, height: 13
+
+Checking vertical rows
+checking solution at 1
+1135 == 4937
+checking solution at 2
+4937 == 719
+checking solution at 3
+719 == 8096
+checking solution at 4
+8096 == 3257
+checking solution at 5
+3257 == 1344
+checking solution at 6
+1344 == 1360
+checking solution at 7
+1360 == 3257
+checking solution at 8
+3257 == 8096
+checking solution at 9
+8096 == 719
+checking solution at 10
+719 == 4937
+checking solution at 11
+4937 == 1135
+checking solution at 12
+1135 == 630
+checking solution at 13
+630 == 1801
+checking solution at 14
+1801 == 1120
+checking solution at 15
+1120 == 79
+checking solution at 16
+79 == 2128
+Checking horizontal rows
+checking solution at 1
+41280 == 13057
+checking solution at 2
+13057 == 81708
+checking solution at 3
+81708 == 57816
+checking solution at 4
+57816 == 44360
+checking solution at 5
+44360 == 29568
+checking solution at 6
+29568 == 118007
+checking solution at 7
+118007 == 78644
+checking solution at 8
+78644 == 5649
+checking solution at 9
+5649 == 119530
+checking solution at 10
+119530 == 82098
+checking solution at 11
+82098 == 82098
+119530 == 119530
+found solution
+solution = 1100
+22924	#.##..##...##..
+27379	##.#.#.####..##
+25773	##..#..#.#.##.#
+28352	##.###.##......
+30963	####...####..##
+27379	##.#.#.####..##
+27379	##.#.#.####..##
+30963	####...####..##
+28352	##.###.##......
+25773	##..#..#.#.##.#
+27379	##.#.#.####..##
+22924	#.##..##...##..
+17919	#...#.#########
+14162	.##.###.#.#..#.
+495	......####.####
+32764 16370 17546 28632 6246 11090 16399 32765 12247 14261 10134 20525 20525 10135 14261 
+width: 15, height: 15
+
+Checking vertical rows
+checking solution at 1
+32764 == 16370
+checking solution at 2
+16370 == 17546
+checking solution at 3
+17546 == 28632
+checking solution at 4
+28632 == 6246
+checking solution at 5
+6246 == 11090
+checking solution at 6
+11090 == 16399
+checking solution at 7
+16399 == 32765
+checking solution at 8
+32765 == 12247
+checking solution at 9
+12247 == 14261
+checking solution at 10
+14261 == 10134
+checking solution at 11
+10134 == 20525
+checking solution at 12
+20525 == 20525
+10134 == 10135
+checking solution at 13
+20525 == 10135
+checking solution at 14
+10135 == 14261
+Checking horizontal rows
+checking solution at 1
+22924 == 27379
+checking solution at 2
+27379 == 25773
+checking solution at 3
+25773 == 28352
+checking solution at 4
+28352 == 30963
+checking solution at 5
+30963 == 27379
+checking solution at 6
+27379 == 27379
+30963 == 30963
+28352 == 28352
+25773 == 25773
+27379 == 27379
+22924 == 22924
+found solution
+solution = 600
+102	##..##.
+48	.##....
+48	.##....
+102	##..##.
+93	#.###.#
+89	#.##..#
+63	.######
+63	.######
+89	#.##..#
+93	#.###.#
+38	.#..##.
+1254 1945 894 126 1243 1177 126 
+width: 7, height: 11
+
+Checking vertical rows
+checking solution at 1
+1254 == 1945
+checking solution at 2
+1945 == 894
+checking solution at 3
+894 == 126
+checking solution at 4
+126 == 1243
+checking solution at 5
+1243 == 1177
+checking solution at 6
+1177 == 126
+Checking horizontal rows
+checking solution at 1
+102 == 48
+checking solution at 2
+48 == 48
+102 == 102
+found solution
+solution = 200
+4	....#..
+107	##.#.##
+20	..#.#..
+7	....###
+107	##.#.##
+111	##.####
+112	###....
+108	##.##..
+4	....#..
+3	.....##
+124	#####..
+96	##.....
+5	....#.#
+123	####.##
+100	##..#..
+10139 10139 4370 9874 23253 11810 11814 
+width: 7, height: 15
+
+Checking vertical rows
+checking solution at 1
+10139 == 10139
+found solution
+solution = 1
+46101	.#.##.#.....#.#.#
+118520	###..###.#####...
+118520	###..###.#####...
+46101	.#.##.#.....#.#.#
+33976	.#....#..#.###...
+84966	#.#..#.#####..##.
+97026	#.####.##......#.
+112345	##.##.##.##.##..#
+116419	###...##.##....##
+97263	#.####.#####.####
+112320	##.##.##.##......
+130910	#########.#.####.
+118584	###..####..###...
+3327 7991 3291 4718 4718 3275 7991 3327 203 3516 3262 3465 7971 3371 4746 218 4664 
+width: 17, height: 13
+
+Checking vertical rows
+checking solution at 1
+3327 == 7991
+checking solution at 2
+7991 == 3291
+checking solution at 3
+3291 == 4718
+checking solution at 4
+4718 == 4718
+3291 == 3275
+checking solution at 5
+4718 == 3275
+checking solution at 6
+3275 == 7991
+checking solution at 7
+7991 == 3327
+checking solution at 8
+3327 == 203
+checking solution at 9
+203 == 3516
+checking solution at 10
+3516 == 3262
+checking solution at 11
+3262 == 3465
+checking solution at 12
+3465 == 7971
+checking solution at 13
+7971 == 3371
+checking solution at 14
+3371 == 4746
+checking solution at 15
+4746 == 218
+checking solution at 16
+218 == 4664
+Checking horizontal rows
+checking solution at 1
+46101 == 118520
+checking solution at 2
+118520 == 118520
+46101 == 46101
+found solution
+solution = 200
+81043	#..####..#..#..##
+121814	###.##.####.#.##.
+32267	..######.....#.##
+121826	###.##.#####...#.
+82593	#.#....#.#.#....#
+114132	##.####.###.#.#..
+115627	###....###.#.#.##
+121823	###.##.####.#####
+9265	...#..#....##...#
+9265	...#..#....##...#
+121823	###.##.####.#####
+115627	###....###.#.#.##
+114140	##.####.###.###..
+82593	#.#....#.#.#....#
+121826	###.##.#####...#.
+28575 11165 15771 21092 31381 31381 21092 15771 11165 28575 10901 3435 25332 4508 8852 31129 22010 
+width: 17, height: 15
+
+Checking vertical rows
+checking solution at 1
+28575 == 11165
+checking solution at 2
+11165 == 15771
+checking solution at 3
+15771 == 21092
+checking solution at 4
+21092 == 31381
+checking solution at 5
+31381 == 31381
+21092 == 21092
+15771 == 15771
+11165 == 11165
+28575 == 28575
+found solution
+solution = 5
+486	####..##.
+483	####...##
+14	.....###.
+63	...######
+504	######...
+16	....#....
+485	####..#.#
+485	####..#.#
+16	....#....
+504	######...
+61	...####.#
+14	.....###.
+483	####...##
+6505 6505 6505 7021 924 1806 5734 7683 2661 
+width: 9, height: 13
+
+Checking vertical rows
+checking solution at 1
+6505 == 6505
+found solution
+solution = 1
+274	#...#..#.
+274	#...#..#.
+481	####....#
+319	#..######
+63	...######
+448	###......
+51	...##..##
+478	###.####.
+322	#.#....#.
+491 74 75 116 438 50 50 439 116 
+width: 9, height: 9
+
+Checking vertical rows
+checking solution at 1
+491 == 74
+checking solution at 2
+74 == 75
+checking solution at 3
+75 == 116
+checking solution at 4
+116 == 438
+checking solution at 5
+438 == 50
+checking solution at 6
+50 == 50
+438 == 439
+checking solution at 7
+50 == 439
+checking solution at 8
+439 == 116
+Checking horizontal rows
+checking solution at 1
+274 == 274
+found solution
+solution = 100
+60	.####..
+106	##.#.#.
+106	##.#.#.
+60	.####..
+73	#..#..#
+3	.....##
+41	.#.#..#
+21	..#.#.#
+21	..#.#.#
+41	.#.#..#
+3	.....##
+73	#..#..#
+44	.#.##..
+3330 7753 4656 8011 4657 3204 510 
+width: 7, height: 13
+
+Checking vertical rows
+checking solution at 1
+3330 == 7753
+checking solution at 2
+7753 == 4656
+checking solution at 3
+4656 == 8011
+checking solution at 4
+8011 == 4657
+checking solution at 5
+4657 == 3204
+checking solution at 6
+3204 == 510
+Checking horizontal rows
+checking solution at 1
+60 == 106
+checking solution at 2
+106 == 106
+60 == 60
+found solution
+solution = 200
+5388	#.#.#....##..
+3934	.####.#.####.
+3918	.####.#..###.
+5388	#.#.#....##..
+1136	..#...###....
+1136	..#...###....
+5388	#.#.#....##..
+3918	.####.#..###.
+3934	.####.#.####.
+5388	#.#.#....##..
+6897	##.#.####...#
+1174	..#..#..#.##.
+7161	##.#######..#
+3313	.##..####...#
+7363	###..##....##
+4056	.######.##...
+2406	.#..#.##..##.
+74964 50015 130990 50002 124819 126 56159 6233 39290 124818 124833 49957 92 
+width: 13, height: 17
+
+Checking vertical rows
+checking solution at 1
+74964 == 50015
+checking solution at 2
+50015 == 130990
+checking solution at 3
+130990 == 50002
+checking solution at 4
+50002 == 124819
+checking solution at 5
+124819 == 126
+checking solution at 6
+126 == 56159
+checking solution at 7
+56159 == 6233
+checking solution at 8
+6233 == 39290
+checking solution at 9
+39290 == 124818
+checking solution at 10
+124818 == 124833
+checking solution at 11
+124833 == 49957
+checking solution at 12
+49957 == 92
+Checking horizontal rows
+checking solution at 1
+5388 == 3934
+checking solution at 2
+3934 == 3918
+checking solution at 3
+3918 == 5388
+checking solution at 4
+5388 == 1136
+checking solution at 5
+1136 == 1136
+5388 == 5388
+3918 == 3918
+3934 == 3934
+5388 == 5388
+found solution
+solution = 500
+1	......#
+98	##...#.
+33	.#....#
+33	.#....#
+34	.#...#.
+1	......#
+78	#..###.
+9	...#..#
+83	#.#..##
+81	#.#...#
+77	#..##.#
+77	#..##.#
+81	#.#...#
+83	#.#..##
+9	...#..#
+78	#..###.
+1	......#
+34298 61440 408 1638 1122 38154 93181 
+width: 7, height: 17
+
+Checking vertical rows
+checking solution at 1
+34298 == 61440
+checking solution at 2
+61440 == 408
+checking solution at 3
+408 == 1638
+checking solution at 4
+1638 == 1122
+checking solution at 5
+1122 == 38154
+checking solution at 6
+38154 == 93181
+Checking horizontal rows
+checking solution at 1
+1 == 98
+checking solution at 2
+98 == 33
+checking solution at 3
+33 == 33
+98 == 34
+checking solution at 4
+33 == 34
+checking solution at 5
+34 == 1
+checking solution at 6
+1 == 78
+checking solution at 7
+78 == 9
+checking solution at 8
+9 == 83
+checking solution at 9
+83 == 81
+checking solution at 10
+81 == 77
+checking solution at 11
+77 == 77
+81 == 81
+83 == 83
+9 == 9
+78 == 78
+1 == 1
+found solution
+solution = 1100
+1616	##..#.#....
+1942	####..#.##.
+1359	#.#.#..####
+265	..#....#..#
+265	..#....#..#
+1359	#.#.#..####
+1942	####..#.##.
+1616	##..#.#....
+1934	####...###.
+1087	#....######
+1137	#...###...#
+498	..#####..#.
+442	..##.###.#.
+442	..##.###.#.
+466	..###.#..#.
+29680 25024 16207 8527 21145 62 25023 7782 13152 13167 7728 
+width: 11, height: 15
+
+Checking vertical rows
+checking solution at 1
+29680 == 25024
+checking solution at 2
+25024 == 16207
+checking solution at 3
+16207 == 8527
+checking solution at 4
+8527 == 21145
+checking solution at 5
+21145 == 62
+checking solution at 6
+62 == 25023
+checking solution at 7
+25023 == 7782
+checking solution at 8
+7782 == 13152
+checking solution at 9
+13152 == 13167
+checking solution at 10
+13167 == 7728
+Checking horizontal rows
+checking solution at 1
+1616 == 1942
+checking solution at 2
+1942 == 1359
+checking solution at 3
+1359 == 265
+checking solution at 4
+265 == 265
+1359 == 1359
+1942 == 1942
+1616 == 1616
+found solution
+solution = 400
+23	..........#.###
+8077	..######...##.#
+8256	.#......#......
+22944	#.##..##.#.....
+28523	##.####.##.#.##
+17977	#...##...###..#
+17977	#...##...###..#
+28523	##.####.##.#.##
+22948	#.##..##.#..#..
+63 82 161 179 158 158 179 161 82 63 268 158 385 274 414 
+width: 15, height: 9
+
+Checking vertical rows
+checking solution at 1
+63 == 82
+checking solution at 2
+82 == 161
+checking solution at 3
+161 == 179
+checking solution at 4
+179 == 158
+checking solution at 5
+158 == 158
+179 == 179
+161 == 161
+82 == 82
+63 == 63
+found solution
+solution = 5
+4122	..#.......##.#.
+21625	#.#.#...####..#
+9899	.#..##.#.#.#.##
+9899	.#..##.#.#.#.##
+21625	#.#.#...####..#
+4122	..#.......##.#.
+5089	..#..#####....#
+10759	.#.#.#......###
+11783	.#.###......###
+144 99 412 3 241 103 4 100 148 244 408 504 3 363 247 
+width: 15, height: 9
+
+Checking vertical rows
+checking solution at 1
+144 == 99
+checking solution at 2
+99 == 412
+checking solution at 3
+412 == 3
+checking solution at 4
+3 == 241
+checking solution at 5
+241 == 103
+checking solution at 6
+103 == 4
+checking solution at 7
+4 == 100
+checking solution at 8
+100 == 148
+checking solution at 9
+148 == 244
+checking solution at 10
+244 == 408
+checking solution at 11
+408 == 504
+checking solution at 12
+504 == 3
+checking solution at 13
+3 == 363
+checking solution at 14
+363 == 247
+Checking horizontal rows
+checking solution at 1
+4122 == 21625
+checking solution at 2
+21625 == 9899
+checking solution at 3
+9899 == 9899
+21625 == 21625
+4122 == 4122
+found solution
+solution = 300
+45	...#.##.#
+18	....#..#.
+307	#..##..##
+63	...######
+161	.#.#....#
+161	.#.#....#
+63	...######
+307	#..##..##
+18	....#..#.
+301	#..#.##.#
+460	###..##..
+267 97 1 1530 924 1171 1171 924 1530 
+width: 9, height: 11
+
+Checking vertical rows
+checking solution at 1
+267 == 97
+checking solution at 2
+97 == 1
+checking solution at 3
+1 == 1530
+checking solution at 4
+1530 == 924
+checking solution at 5
+924 == 1171
+checking solution at 6
+1171 == 1171
+924 == 924
+1530 == 1530
+found solution
+solution = 6
+3024	.#.####.#....
+5160	#.#....#.#...
+7223	###....##.###
+5739	#.##..##.#.##
+2647	.#.#..#.#.###
+6120	#.######.#...
+5743	#.##..##.####
+59 84 59 79 66 66 79 59 84 43 21 29 29 
+width: 13, height: 7
+
+Checking vertical rows
+checking solution at 1
+59 == 84
+checking solution at 2
+84 == 59
+checking solution at 3
+59 == 79
+checking solution at 4
+79 == 66
+checking solution at 5
+66 == 66
+79 == 79
+59 == 59
+84 == 84
+59 == 43
+checking solution at 6
+66 == 79
+checking solution at 7
+79 == 59
+checking solution at 8
+59 == 84
+checking solution at 9
+84 == 43
+checking solution at 10
+43 == 21
+checking solution at 11
+21 == 29
+checking solution at 12
+29 == 29
+found solution
+solution = 12
+107	##.#.##
+64	#......
+69	#...#.#
+123	####.##
+41	.#.#..#
+15	...####
+15	...####
+41	.#.#..#
+123	####.##
+69	#...#.#
+64	#......
+107	##.#.##
+36	.#..#..
+73	#..#..#
+65	#.....#
+30843 19660 2112 20426 4900 19272 24555 
+width: 7, height: 15
+
+Checking vertical rows
+checking solution at 1
+30843 == 19660
+checking solution at 2
+19660 == 2112
+checking solution at 3
+2112 == 20426
+checking solution at 4
+20426 == 4900
+checking solution at 5
+4900 == 19272
+checking solution at 6
+19272 == 24555
+Checking horizontal rows
+checking solution at 1
+107 == 64
+checking solution at 2
+64 == 69
+checking solution at 3
+69 == 123
+checking solution at 4
+123 == 41
+checking solution at 5
+41 == 15
+checking solution at 6
+15 == 15
+41 == 41
+123 == 123
+69 == 69
+64 == 64
+107 == 107
+found solution
+solution = 600
+6138	#.########.#.
+1561	..##....##..#
+1561	..##....##..#
+6138	#.########.#.
+3277	.##..##..##.#
+5658	#.##....##.#.
+2085	.#.....#..#.#
+720	...#.##.#....
+4098	#..........#.
+2244	.#...##...#..
+3372	.##.#..#.##..
+1188 83 2017 1960 1153 1226 1226 1169 1960 2017 83 1188 848 
+width: 13, height: 11
+
+Checking vertical rows
+checking solution at 1
+1188 == 83
+checking solution at 2
+83 == 2017
+checking solution at 3
+2017 == 1960
+checking solution at 4
+1960 == 1153
+checking solution at 5
+1153 == 1226
+checking solution at 6
+1226 == 1226
+1153 == 1169
+checking solution at 7
+1226 == 1169
+checking solution at 8
+1169 == 1960
+checking solution at 9
+1960 == 2017
+checking solution at 10
+2017 == 83
+checking solution at 11
+83 == 1188
+checking solution at 12
+1188 == 848
+Checking horizontal rows
+checking solution at 1
+6138 == 1561
+checking solution at 2
+1561 == 1561
+6138 == 6138
+found solution
+solution = 200
+12890	.##..#..#.##.#.
+19224	#..#.##...##...
+32572	#######..####..
+32572	#######..####..
+19224	#..#.##...##...
+12890	.##..#..#.##.#.
+8353	.#.....#.#....#
+467	......###.#..##
+186	.......#.###.#.
+31525	####.##..#..#.#
+1385	....#.#.##.#..#
+32508	######.######..
+1244	....#..##.###..
+3850 5834 5770 3850 1543 8074 3884 115 4263 1630 8115 8087 1547 4272 108 
+width: 15, height: 13
+
+Checking vertical rows
+checking solution at 1
+3850 == 5834
+checking solution at 2
+5834 == 5770
+checking solution at 3
+5770 == 3850
+checking solution at 4
+3850 == 1543
+checking solution at 5
+1543 == 8074
+checking solution at 6
+8074 == 3884
+checking solution at 7
+3884 == 115
+checking solution at 8
+115 == 4263
+checking solution at 9
+4263 == 1630
+checking solution at 10
+1630 == 8115
+checking solution at 11
+8115 == 8087
+checking solution at 12
+8087 == 1547
+checking solution at 13
+1547 == 4272
+checking solution at 14
+4272 == 108
+Checking horizontal rows
+checking solution at 1
+12890 == 19224
+checking solution at 2
+19224 == 32572
+checking solution at 3
+32572 == 32572
+19224 == 19224
+12890 == 12890
+found solution
+solution = 300
+1668	##.#....#..
+1676	##.#...##..
+949	.###.##.#.#
+1776	##.####....
+194	...##....#.
+266	..#....#.#.
+51	.....##..##
+632	.#..####...
+632	.#..####...
+51	.....##..##
+266	..#....#.#.
+194	...##....#.
+1776	##.####....
+949	.###.##.#.#
+1676	##.#...##..
+26629 30919 4626 31759 3276 6630 6630 8913 28675 1848 4386 
+width: 11, height: 15
+
+Checking vertical rows
+checking solution at 1
+26629 == 30919
+checking solution at 2
+30919 == 4626
+checking solution at 3
+4626 == 31759
+checking solution at 4
+31759 == 3276
+checking solution at 5
+3276 == 6630
+checking solution at 6
+6630 == 6630
+3276 == 8913
+checking solution at 7
+6630 == 8913
+checking solution at 8
+8913 == 28675
+checking solution at 9
+28675 == 1848
+checking solution at 10
+1848 == 4386
+Checking horizontal rows
+checking solution at 1
+1668 == 1676
+checking solution at 2
+1676 == 949
+checking solution at 3
+949 == 1776
+checking solution at 4
+1776 == 194
+checking solution at 5
+194 == 266
+checking solution at 6
+266 == 51
+checking solution at 7
+51 == 632
+checking solution at 8
+632 == 632
+51 == 51
+266 == 266
+194 == 194
+1776 == 1776
+949 == 949
+1676 == 1676
+found solution
+solution = 800
+445	##.####.#
+189	.#.####.#
+189	.#.####.#
+409	##..##..#
+487	####..###
+445	##.####.#
+322	#.#....#.
+79 126 5 118 122 122 118 5 126 
+width: 9, height: 7
+
+Checking vertical rows
+checking solution at 1
+79 == 126
+checking solution at 2
+126 == 5
+checking solution at 3
+5 == 118
+checking solution at 4
+118 == 122
+checking solution at 5
+122 == 122
+118 == 118
+5 == 5
+126 == 126
+found solution
+solution = 5
+38	...#..##.
+6	......##.
+287	#...#####
+303	#..#.####
+63	...######
+191	.#.######
+393	##...#..#
+463	###..####
+400	##..#....
+103 15 2 312 89 126 506 506 126 
+width: 9, height: 9
+
+Checking vertical rows
+checking solution at 1
+103 == 15
+checking solution at 2
+15 == 2
+checking solution at 3
+2 == 312
+checking solution at 4
+312 == 89
+checking solution at 5
+89 == 126
+checking solution at 6
+126 == 506
+checking solution at 7
+506 == 506
+126 == 126
+found solution
+solution = 7
+462	###..###.
+490	####.#.#.
+77	..#..##.#
+465	###.#...#
+6	......##.
+119	..###.###
+71	..#...###
+405	##..#.#.#
+384	##.......
+64	..#......
+504	######...
+497	#####...#
+411	##..##.##
+450	###....#.
+471	###.#.###
+499	#####..##
+503	#####.###
+107391 107391 126191 34915 10871 114768 89605 105503 28215 
+width: 9, height: 17
+
+Checking vertical rows
+checking solution at 1
+107391 == 107391
+found solution
+solution = 1
+312	..#..###...
+280	..#...##...
+1654	##..###.##.
+1337	#.#..###..#
+966	.####...##.
+1495	#.###.#.###
+387	..##.....##
+1333	#.#..##.#.#
+2026	######.#.#.
+969	.####..#..#
+864	.##.##.....
+259	..#......##
+259	..#......##
+1712 1308 7167 472 1436 5684 7840 6680 1440 1491 747 
+width: 11, height: 13
+
+Checking vertical rows
+checking solution at 1
+1712 == 1308
+checking solution at 2
+1308 == 7167
+checking solution at 3
+7167 == 472
+checking solution at 4
+472 == 1436
+checking solution at 5
+1436 == 5684
+checking solution at 6
+5684 == 7840
+checking solution at 7
+7840 == 6680
+checking solution at 8
+6680 == 1440
+checking solution at 9
+1440 == 1491
+checking solution at 10
+1491 == 747
+Checking horizontal rows
+checking solution at 1
+312 == 280
+checking solution at 2
+280 == 1654
+checking solution at 3
+1654 == 1337
+checking solution at 4
+1337 == 966
+checking solution at 5
+966 == 1495
+checking solution at 6
+1495 == 387
+checking solution at 7
+387 == 1333
+checking solution at 8
+1333 == 2026
+checking solution at 9
+2026 == 969
+checking solution at 10
+969 == 864
+checking solution at 11
+864 == 259
+checking solution at 12
+259 == 259
+found solution
+solution = 1200
+4489	..#...##...#..#
+7800	..####..####...
+10836	.#.#.#..#.#.#..
+30126	###.#.##.#.###.
+7128	..##.####.##...
+20082	#..###..###..#.
+17346	#....####....#.
+6120	..#.######.#...
+6120	..#.######.#...
+17346	#....####....#.
+20082	#..###..###..#.
+7128	..##.####.##...
+30126	###.#.##.#.###.
+10836	.#.#.#..#.#.#..
+7801	..####..####..#
+4489	..#...##...#..#
+28086	##.##.##.##.##.
+11473 24601 111414 55405 43861 57324 79795 79795 57324 43861 55405 111414 24601 11473 65542 
+width: 15, height: 17
+
+Checking vertical rows
+checking solution at 1
+11473 == 24601
+checking solution at 2
+24601 == 111414
+checking solution at 3
+111414 == 55405
+checking solution at 4
+55405 == 43861
+checking solution at 5
+43861 == 57324
+checking solution at 6
+57324 == 79795
+checking solution at 7
+79795 == 79795
+57324 == 57324
+43861 == 43861
+55405 == 55405
+111414 == 111414
+24601 == 24601
+11473 == 11473
+found solution
+solution = 7
+229	.###..#.#
+69	..#...#.#
+444	##.####..
+303	#..#.####
+24	....##...
+24	....##...
+303	#..#.####
+316	#..####..
+69	..#...#.#
+229	.###..#.#
+229	.###..#.#
+408 1283 1543 1435 360 504 1951 144 1687 
+width: 9, height: 11
+
+Checking vertical rows
+checking solution at 1
+408 == 1283
+checking solution at 2
+1283 == 1543
+checking solution at 3
+1543 == 1435
+checking solution at 4
+1435 == 360
+checking solution at 5
+360 == 504
+checking solution at 6
+504 == 1951
+checking solution at 7
+1951 == 144
+checking solution at 8
+144 == 1687
+Checking horizontal rows
+checking solution at 1
+229 == 69
+checking solution at 2
+69 == 444
+checking solution at 3
+444 == 303
+checking solution at 4
+303 == 24
+checking solution at 5
+24 == 24
+303 == 303
+444 == 316
+checking solution at 6
+24 == 303
+checking solution at 7
+303 == 316
+checking solution at 8
+316 == 69
+checking solution at 9
+69 == 229
+checking solution at 10
+229 == 229
+found solution
+solution = 1000
+78616	#..##..##...##...
+511	........#########
+100351	##....###########
+84645	#.#..#.#.#.#..#.#
+52419	.##..##..##....##
+118783	###..############
+130840	#########...##...
+46591	.#.##.#.#########
+18883	..#..#..###....##
+118693	###..#####.#..#.#
+46333	.#.##.#..######.#
+18724	..#..#..#..#..#..
+31129	..####..##..##..#
+97279	#.####.##########
+112317	##.##.##.#.####.#
+31012	..####..#..#..#..
+130620	########...####..
+93325 24261 15803 67167 67167 15803 24261 93325 118714 64476 56136 60143 118365 118365 60143 56072 64476 
+width: 17, height: 17
+
+Checking vertical rows
+checking solution at 1
+93325 == 24261
+checking solution at 2
+24261 == 15803
+checking solution at 3
+15803 == 67167
+checking solution at 4
+67167 == 67167
+15803 == 15803
+24261 == 24261
+93325 == 93325
+found solution
+solution = 4
+20646	..#.#....#.#..##.
+122297	###.###.##.###..#
+106585	##.#......#.##..#
+69385	#....####....#..#
+53430	.##.#....#.##.##.
+34326	.#....##....#.##.
+8064	....######.......
+67849	#....#..#....#..#
+108895	##.#.#..#.#.#####
+83503	#.#...##...#.####
+94057	#.##.####.##.#..#
+128767	#####.##.########
+51510	.##..#..#..##.##.
+57456	.###......###....
+76105	#..#.#..#.#..#..#
+14585 13902 25662 4187 25864 10709 11064 2872 10709 25864 4187 25662 13902 14585 18028 18028 14585 
+width: 17, height: 15
+
+Checking vertical rows
+checking solution at 1
+14585 == 13902
+checking solution at 2
+13902 == 25662
+checking solution at 3
+25662 == 4187
+checking solution at 4
+4187 == 25864
+checking solution at 5
+25864 == 10709
+checking solution at 6
+10709 == 11064
+checking solution at 7
+11064 == 2872
+checking solution at 8
+2872 == 10709
+checking solution at 9
+10709 == 25864
+checking solution at 10
+25864 == 4187
+checking solution at 11
+4187 == 25662
+checking solution at 12
+25662 == 13902
+checking solution at 13
+13902 == 14585
+checking solution at 14
+14585 == 18028
+checking solution at 15
+18028 == 18028
+14585 == 14585
+found solution
+solution = 15
+21854	#.#.#.#.#.####.
+4083	...########..##
+6003	..#.###.###..##
+5491	..#.#.#.###..##
+17548	#...#..#...##..
+13311	.##..##########
+18483	#..#.....##..##
+69 2 90 33 124 50 122 38 122 59 123 70 70 123 59 
+width: 15, height: 7
+
+Checking vertical rows
+checking solution at 1
+69 == 2
+checking solution at 2
+2 == 90
+checking solution at 3
+90 == 33
+checking solution at 4
+33 == 124
+checking solution at 5
+124 == 50
+checking solution at 6
+50 == 122
+checking solution at 7
+122 == 38
+checking solution at 8
+38 == 122
+checking solution at 9
+122 == 59
+checking solution at 10
+59 == 123
+checking solution at 11
+123 == 70
+checking solution at 12
+70 == 70
+123 == 123
+59 == 59
+found solution
+solution = 12
+95040	#.###..##.#......
+95040	#.###..##.#......
+41490	.#.#...#....#..#.
+97504	#.#####..###.....
+127022	#####......#.###.
+5959	....#.###.#...###
+6834	....##.#.#.##..#.
+92301	#.##.#...#...##.#
+26111	..##..#.#########
+85661	#.#..###.#..###.#
+85663	#.#..###.#..#####
+26111	..##..#.#########
+92301	#.##.#...#...##.#
+6834	....##.#.#.##..#.
+5959	....#.###.#...###
+127022	#####......#.###.
+97504	#.#####..###.....
+111315 20482 111603 127795 113679 9945 10725 117964 100644 10233 108837 13611 17896 5106 7158 23918 3060 
+width: 17, height: 17
+
+Checking vertical rows
+checking solution at 1
+111315 == 20482
+checking solution at 2
+20482 == 111603
+checking solution at 3
+111603 == 127795
+checking solution at 4
+127795 == 113679
+checking solution at 5
+113679 == 9945
+checking solution at 6
+9945 == 10725
+checking solution at 7
+10725 == 117964
+checking solution at 8
+117964 == 100644
+checking solution at 9
+100644 == 10233
+checking solution at 10
+10233 == 108837
+checking solution at 11
+108837 == 13611
+checking solution at 12
+13611 == 17896
+checking solution at 13
+17896 == 5106
+checking solution at 14
+5106 == 7158
+checking solution at 15
+7158 == 23918
+checking solution at 16
+23918 == 3060
+Checking horizontal rows
+checking solution at 1
+95040 == 95040
+found solution
+solution = 100
+1	......#
+5	....#.#
+74	#..#.#.
+47	.#.####
+47	.#.####
+74	#..#.#.
+5	....#.#
+1	......#
+61	.####.#
+72 49 1 121 181 120 439 
+width: 7, height: 9
+
+Checking vertical rows
+checking solution at 1
+72 == 49
+checking solution at 2
+49 == 1
+checking solution at 3
+1 == 121
+checking solution at 4
+121 == 181
+checking solution at 5
+181 == 120
+checking solution at 6
+120 == 439
+Checking horizontal rows
+checking solution at 1
+1 == 5
+checking solution at 2
+5 == 74
+checking solution at 3
+74 == 47
+checking solution at 4
+47 == 47
+74 == 74
+5 == 5
+1 == 1
+found solution
+solution = 400
+5836	....#.##.##..##..
+124333	####..#.##.#.##.#
+33505	.#.....#.###....#
+122368	###.####.........
+92787	#.##.#.#..###..##
+110463	##.#.####.#######
+126220	####.##.#....##..
+130316	#######.#....##..
+110463	##.#.####.#######
+92787	#.##.#.#..###..##
+122368	###.####.........
+767 957 731 638 1161 255 1725 1511 572 1792 1382 870 102 1596 1596 102 870 
+width: 17, height: 11
+
+Checking vertical rows
+checking solution at 1
+767 == 957
+checking solution at 2
+957 == 731
+checking solution at 3
+731 == 638
+checking solution at 4
+638 == 1161
+checking solution at 5
+1161 == 255
+checking solution at 6
+255 == 1725
+checking solution at 7
+1725 == 1511
+checking solution at 8
+1511 == 572
+checking solution at 9
+572 == 1792
+checking solution at 10
+1792 == 1382
+checking solution at 11
+1382 == 870
+checking solution at 12
+870 == 102
+checking solution at 13
+102 == 1596
+checking solution at 14
+1596 == 1596
+102 == 102
+870 == 870
+found solution
+solution = 14
+116932	###..#...##...#..
+24286	..#.####.##.####.
+107529	##.#..#......#..#
+18436	..#..#........#..
+120826	###.#.########.#.
+107505	##.#...######...#
+122878	###.############.
+109029	##.#.#..####..#.#
+103914	##..#.#.####.#.#.
+17608	..#...#..##..#...
+122686	###.#####..#####.
+89582	#.#.###.####.###.
+105966	##..###.####.###.
+5623 5621 6990 1184 2391 6759 3423 2500 503 6651 6651 503 2500 3423 6759 2391 1184 
+width: 17, height: 13
+
+Checking vertical rows
+checking solution at 1
+5623 == 5621
+checking solution at 2
+5621 == 6990
+checking solution at 3
+6990 == 1184
+checking solution at 4
+1184 == 2391
+checking solution at 5
+2391 == 6759
+checking solution at 6
+6759 == 3423
+checking solution at 7
+3423 == 2500
+checking solution at 8
+2500 == 503
+checking solution at 9
+503 == 6651
+checking solution at 10
+6651 == 6651
+503 == 503
+2500 == 2500
+3423 == 3423
+6759 == 6759
+2391 == 2391
+1184 == 1184
+found solution
+solution = 10
+112539	##.##.####..##.##
+118564	###..####..#..#..
+97076	#.####.##..##.#..
+31010	..####..#..#...#.
+112145	##.##.##....#...#
+84948	#.#..#.####.#.#..
+17	............#...#
+78374	#..##..#...#..##.
+66246	#......#.##...##.
+46553	.#.##.#.###.##..#
+112573	##.##.####.####.#
+112573	##.##.####.####.#
+46553	.#.##.#.###.##..#
+66246	#......#.##...##.
+78390	#..##..#...##.##.
+17	............#...#
+84948	#.#..#.####.#.#..
+121709 102640 59393 94964 94964 59393 102640 121709 125169 68089 2457 57956 89335 65776 52077 74508 70898 
+width: 17, height: 17
+
+Checking vertical rows
+checking solution at 1
+121709 == 102640
+checking solution at 2
+102640 == 59393
+checking solution at 3
+59393 == 94964
+checking solution at 4
+94964 == 94964
+59393 == 59393
+102640 == 102640
+121709 == 121709
+found solution
+solution = 4
+52978	.##..###.####..#.
+58332	.###...####.###..
+100782	##...#..##.#.###.
+112053	##.##.#.##.##.#.#
+111029	##.##...##.##.#.#
+90732	#.##...#..##.##..
+57844	.###....#####.#..
+31310	..####.#..#..###.
+31310	..####.#..#..###.
+57844	.###....#####.#..
+90732	#.##...#..##.##..
+111029	##.##...##.##.#.#
+112053	##.##.#.##.##.#.#
+1927 8011 6396 3071 819 5168 4609 6324 3915 8011 6396 6095 6987 3252 4095 5168 771 
+width: 17, height: 13
+
+Checking vertical rows
+checking solution at 1
+1927 == 8011
+checking solution at 2
+8011 == 6396
+checking solution at 3
+6396 == 3071
+checking solution at 4
+3071 == 819
+checking solution at 5
+819 == 5168
+checking solution at 6
+5168 == 4609
+checking solution at 7
+4609 == 6324
+checking solution at 8
+6324 == 3915
+checking solution at 9
+3915 == 8011
+checking solution at 10
+8011 == 6396
+checking solution at 11
+6396 == 6095
+checking solution at 12
+6095 == 6987
+checking solution at 13
+6987 == 3252
+checking solution at 14
+3252 == 4095
+checking solution at 15
+4095 == 5168
+checking solution at 16
+5168 == 771
+Checking horizontal rows
+checking solution at 1
+52978 == 58332
+checking solution at 2
+58332 == 100782
+checking solution at 3
+100782 == 112053
+checking solution at 4
+112053 == 111029
+checking solution at 5
+111029 == 90732
+checking solution at 6
+90732 == 57844
+checking solution at 7
+57844 == 31310
+checking solution at 8
+31310 == 31310
+57844 == 57844
+90732 == 90732
+111029 == 111029
+112053 == 112053
+found solution
+solution = 800
+1742	##.##..###.
+1746	##.##.#..#.
+17	......#...#
+17	......#...#
+1746	##.##.#..#.
+1742	##.##..###.
+1802	###....#.#.
+1316	#.#..#..#..
+1418	#.##...#.#.
+494	..####.###.
+492	..####.##..
+1418	#.##...#.#.
+1316	#.#..#..#..
+1802	###....#.#.
+1742	##.##..###.
+1746	##.##.#..#.
+17	......#...#
+106302 105486 2040 104934 104646 720 61443 69100 68308 105902 24577 
+width: 11, height: 17
+
+Checking vertical rows
+checking solution at 1
+106302 == 105486
+checking solution at 2
+105486 == 2040
+checking solution at 3
+2040 == 104934
+checking solution at 4
+104934 == 104646
+checking solution at 5
+104646 == 720
+checking solution at 6
+720 == 61443
+checking solution at 7
+61443 == 69100
+checking solution at 8
+69100 == 68308
+checking solution at 9
+68308 == 105902
+checking solution at 10
+105902 == 24577
+Checking horizontal rows
+checking solution at 1
+1742 == 1746
+checking solution at 2
+1746 == 17
+checking solution at 3
+17 == 17
+1746 == 1746
+1742 == 1742
+found solution
+solution = 300
+122878	###.############.
+11253	...#.#.######.#.#
+98496	##.......##......
+98832	##.....#....#....
+123361	####....####....#
+27949	..##.##.#..#.##.#
+16191	...######..######
+126157	####.##..##..##.#
+71974	#...##..#..#..##.
+21706	..#.#.#..##..#.#.
+2580	.....#.#....#.#..
+127699	#####..#.##.#..##
+9753	...#..##....##..#
+123601	####...#.##.#...#
+119314	###.#..#....#..#.
+23755 23691 18091 10126 16745 25552 17316 26911 26432 29866 29866 26432 26911 17316 25552 16745 10126 
+width: 17, height: 15
+
+Checking vertical rows
+checking solution at 1
+23755 == 23691
+checking solution at 2
+23691 == 18091
+checking solution at 3
+18091 == 10126
+checking solution at 4
+10126 == 16745
+checking solution at 5
+16745 == 25552
+checking solution at 6
+25552 == 17316
+checking solution at 7
+17316 == 26911
+checking solution at 8
+26911 == 26432
+checking solution at 9
+26432 == 29866
+checking solution at 10
+29866 == 29866
+26432 == 26432
+26911 == 26911
+17316 == 17316
+25552 == 25552
+16745 == 16745
+10126 == 10126
+found solution
+solution = 10
+404	....##..#.#..
+287	....#...#####
+279	....#...#.###
+3208	.##..#...#...
+478	....###.####.
+4952	#..##.#.##...
+7804	####..#####..
+7980	#####..#.##..
+7728	####...##....
+8007	#####.#...###
+5052	#..###.####..
+3559	.##.####..###
+7911	####.###..###
+272	....#...#....
+3199	.##...#######
+1012 2541 2541 1012 30394 19484 1837 477 30547 12177 30141 13357 12333 
+width: 13, height: 15
+
+Checking vertical rows
+checking solution at 1
+1012 == 2541
+checking solution at 2
+2541 == 2541
+1012 == 1012
+found solution
+solution = 2
+63	...######
+332	#.#..##..
+191	.#.######
+287	#...#####
+127	..#######
+499	#####..##
+350	#.#.####.
+140	.#...##..
+146	.#..#..#.
+274	#...#..#.
+237	.###.##.#
+109	..##.##.#
+109	..##.##.#
+237	.###.##.#
+274	#...#..#.
+11041 4818 10014 22046 24417 32158 32158 24417 24094 
+width: 9, height: 15
+
+Checking vertical rows
+checking solution at 1
+11041 == 4818
+checking solution at 2
+4818 == 10014
+checking solution at 3
+10014 == 22046
+checking solution at 4
+22046 == 24417
+checking solution at 5
+24417 == 32158
+checking solution at 6
+32158 == 32158
+24417 == 24417
+22046 == 24094
+checking solution at 7
+32158 == 24417
+checking solution at 8
+24417 == 24094
+Checking horizontal rows
+checking solution at 1
+63 == 332
+checking solution at 2
+332 == 191
+checking solution at 3
+191 == 287
+checking solution at 4
+287 == 127
+checking solution at 5
+127 == 499
+checking solution at 6
+499 == 350
+checking solution at 7
+350 == 140
+checking solution at 8
+140 == 146
+checking solution at 9
+146 == 274
+checking solution at 10
+274 == 237
+checking solution at 11
+237 == 109
+checking solution at 12
+109 == 109
+237 == 237
+274 == 274
+found solution
+solution = 1200
+98	##...#.
+98	##...#.
+63	.######
+113	###...#
+42	.#.#.#.
+10	...#.#.
+75	#..#.##
+75	#..#.##
+10	...#.#.
+42	.#.#.#.
+97	##....#
+63	.######
+98	##...#.
+6757 7951 1538 1530 1026 7675 1638 
+width: 7, height: 13
+
+Checking vertical rows
+checking solution at 1
+6757 == 7951
+checking solution at 2
+7951 == 1538
+checking solution at 3
+1538 == 1530
+checking solution at 4
+1530 == 1026
+checking solution at 5
+1026 == 7675
+checking solution at 6
+7675 == 1638
+Checking horizontal rows
+checking solution at 1
+98 == 98
+found solution
+solution = 100
+403	##..#..##
+416	##.#.....
+396	##...##..
+368	#.###....
+459	###..#.##
+503	#####.###
+444	##.####..
+503	#####.###
+23	....#.###
+99	..##...##
+120	..####...
+112	..###....
+63	...######
+508	#######..
+456	###..#...
+32643 30595 3771 11198 19422 5399 5062 18148 18148 
+width: 9, height: 15
+
+Checking vertical rows
+checking solution at 1
+32643 == 30595
+checking solution at 2
+30595 == 3771
+checking solution at 3
+3771 == 11198
+checking solution at 4
+11198 == 19422
+checking solution at 5
+19422 == 5399
+checking solution at 6
+5399 == 5062
+checking solution at 7
+5062 == 18148
+checking solution at 8
+18148 == 18148
+found solution
+solution = 8
+7711	####....#####
+7958	#####...#.##.
+89	......#.##..#
+495	....####.####
+393	....##...#..#
+4740	#..#.#....#..
+137	.....#...#..#
+8160	########.....
+8150	#######.#.##.
+4905	#..##..#.#..#
+4870	#..##.....##.
+214	.....##.#.##.
+3414	.##.#.#.#.##.
+8175	########.####
+4646	#..#...#..##.
+25331 24774 24774 25331 11510 4042 6350 2211 28748 23842 27231 26719 23842 
+width: 13, height: 15
+
+Checking vertical rows
+checking solution at 1
+25331 == 24774
+checking solution at 2
+24774 == 24774
+25331 == 25331
+found solution
+solution = 2
+1003	.#####.#.##
+1003	.#####.#.##
+129	...#......#
+669	.#.#..###.#
+1909	###.###.#.#
+1827	###..#...##
+1784	##.#####...
+1637	##..##..#.#
+445	..##.####.#
+1359	#.#.#..####
+1359	#.#.#..####
+445	..##.####.#
+1637	##..##..#.#
+1784	##.#####...
+1827	###..#...##
+1653	##..###.#.#
+669	.#.#..###.#
+7902 114207 104932 124201 104154 106302 13611 108009 13299 100548 130039 
+width: 11, height: 17
+
+Checking vertical rows
+checking solution at 1
+7902 == 114207
+checking solution at 2
+114207 == 104932
+checking solution at 3
+104932 == 124201
+checking solution at 4
+124201 == 104154
+checking solution at 5
+104154 == 106302
+checking solution at 6
+106302 == 13611
+checking solution at 7
+13611 == 108009
+checking solution at 8
+108009 == 13299
+checking solution at 9
+13299 == 100548
+checking solution at 10
+100548 == 130039
+Checking horizontal rows
+checking solution at 1
+1003 == 1003
+found solution
+solution = 100
+6175	##......#####
+4685	#..#..#..##.#
+5551	#.#.##.#.####
+6553	##..##..##..#
+1059	..#....#...##
+8188	###########..
+2022	..######..##.
+4169	#.....#..#..#
+3123	.##....##..##
+7608	###.##.###...
+4105	#........#..#
+6556	##..##..###..
+6556	##..##..###..
+7855 4763 1496 2240 1739 1739 2272 1496 4763 7855 7363 5456 7988 
+width: 13, height: 13
+
+Checking vertical rows
+checking solution at 1
+7855 == 4763
+checking solution at 2
+4763 == 1496
+checking solution at 3
+1496 == 2240
+checking solution at 4
+2240 == 1739
+checking solution at 5
+1739 == 1739
+2240 == 2272
+checking solution at 6
+1739 == 2272
+checking solution at 7
+2272 == 1496
+checking solution at 8
+1496 == 4763
+checking solution at 9
+4763 == 7855
+checking solution at 10
+7855 == 7363
+checking solution at 11
+7363 == 5456
+checking solution at 12
+5456 == 7988
+Checking horizontal rows
+checking solution at 1
+6175 == 4685
+checking solution at 2
+4685 == 5551
+checking solution at 3
+5551 == 6553
+checking solution at 4
+6553 == 1059
+checking solution at 5
+1059 == 8188
+checking solution at 6
+8188 == 2022
+checking solution at 7
+2022 == 4169
+checking solution at 8
+4169 == 3123
+checking solution at 9
+3123 == 7608
+checking solution at 10
+7608 == 4105
+checking solution at 11
+4105 == 6556
+checking solution at 12
+6556 == 6556
+found solution
+solution = 1200
+21140	#.#..#.#..#.#..
+23189	#.##.#.#..#.#.#
+23189	#.##.#.#..#.#.#
+21140	#.#..#.#..#.#..
+2193	...#...#..#...#
+3219	...##..#..#..##
+4360	..#...#....#...
+13818	.##.#.######.#.
+516	.....#......#..
+32527	#######....####
+22382	#.#.###.##.###.
+25092	##...#......#..
+23285	#.##.#.####.#.#
+23699	#.###..#..#..##
+29452	###..##....##..
+23707	#.###..#..##.##
+20576	#.#.....##.....
+123135 676 124639 55450 2762 123380 1732 129562 593 593 129562 1734 123380 2762 55450 
+width: 15, height: 17
+
+Checking vertical rows
+checking solution at 1
+123135 == 676
+checking solution at 2
+676 == 124639
+checking solution at 3
+124639 == 55450
+checking solution at 4
+55450 == 2762
+checking solution at 5
+2762 == 123380
+checking solution at 6
+123380 == 1732
+checking solution at 7
+1732 == 129562
+checking solution at 8
+129562 == 593
+checking solution at 9
+593 == 593
+129562 == 129562
+1732 == 1734
+checking solution at 10
+593 == 129562
+checking solution at 11
+129562 == 1734
+checking solution at 12
+1734 == 123380
+checking solution at 13
+123380 == 2762
+checking solution at 14
+2762 == 55450
+Checking horizontal rows
+checking solution at 1
+21140 == 23189
+checking solution at 2
+23189 == 23189
+21140 == 21140
+found solution
+solution = 200
+10560	...#.#..#.#......
+102558	##..#....#..####.
+127231	#####....########
+106590	##.#......#.####.
+83501	#.#...##...#.##.#
+98334	##..........####.
+98285	#.##########.##.#
+63859	.#####..#.###..##
+65523	.############..##
+252 235 87 359 199 263 21 21 263 197 359 87 235 252 252 235 87 
+width: 17, height: 9
+
+Checking vertical rows
+checking solution at 1
+252 == 235
+checking solution at 2
+235 == 87
+checking solution at 3
+87 == 359
+checking solution at 4
+359 == 199
+checking solution at 5
+199 == 263
+checking solution at 6
+263 == 21
+checking solution at 7
+21 == 21
+263 == 263
+199 == 197
+checking solution at 8
+21 == 263
+checking solution at 9
+263 == 197
+checking solution at 10
+197 == 359
+checking solution at 11
+359 == 87
+checking solution at 12
+87 == 235
+checking solution at 13
+235 == 252
+checking solution at 14
+252 == 252
+235 == 235
+87 == 87
+found solution
+solution = 14
+89	..#.##..#
+89	..#.##..#
+228	.###..#..
+422	##.#..##.
+276	#...#.#..
+466	###.#..#.
+431	##.#.####
+68	..#...#..
+417	##.#....#
+116	..###.#..
+349	#.#.###.#
+190	.#.#####.
+33	...#....#
+33	...#....#
+190	.#.#####.
+349	#.#.###.#
+117	..###.#.#
+15682 27940 117443 26045 104679 99430 30439 11300 99675 
+width: 9, height: 17
+
+Checking vertical rows
+checking solution at 1
+15682 == 27940
+checking solution at 2
+27940 == 117443
+checking solution at 3
+117443 == 26045
+checking solution at 4
+26045 == 104679
+checking solution at 5
+104679 == 99430
+checking solution at 6
+99430 == 30439
+checking solution at 7
+30439 == 11300
+checking solution at 8
+11300 == 99675
+Checking horizontal rows
+checking solution at 1
+89 == 89
+found solution
+solution = 100
+69	..#...#.#
+133	.#....#.#
+318	#..#####.
+124	..#####..
+49	...##...#
+352	#.##.....
+352	#.##.....
+49	...##...#
+380	#.#####..
+318	#..#####.
+133	.#....#.#
+69	..#...#.#
+150	.#..#.##.
+150	.#..#.##.
+69	..#...#.#
+4960 8214 19273 8160 7398 6240 30847 4134 25753 
+width: 9, height: 15
+
+Checking vertical rows
+checking solution at 1
+4960 == 8214
+checking solution at 2
+8214 == 19273
+checking solution at 3
+19273 == 8160
+checking solution at 4
+8160 == 7398
+checking solution at 5
+7398 == 6240
+checking solution at 6
+6240 == 30847
+checking solution at 7
+30847 == 4134
+checking solution at 8
+4134 == 25753
+Checking horizontal rows
+checking solution at 1
+69 == 133
+checking solution at 2
+133 == 318
+checking solution at 3
+318 == 124
+checking solution at 4
+124 == 49
+checking solution at 5
+49 == 352
+checking solution at 6
+352 == 352
+49 == 49
+124 == 380
+checking solution at 7
+352 == 49
+checking solution at 8
+49 == 380
+checking solution at 9
+380 == 318
+checking solution at 10
+318 == 133
+checking solution at 11
+133 == 69
+checking solution at 12
+69 == 150
+checking solution at 13
+150 == 150
+69 == 69
+found solution
+solution = 1300
+12143	.#.####.##.####
+24735	##.....#..#####
+21519	#.#.#......####
+27295	##.#.#.#..#####
+12278	.#.########.##.
+16774	#.....##....##.
+9270	.#..#....##.##.
+18971	#..#.#....##.##
+28406	##.###.####.##.
+27680	##.##....#.....
+23417	#.##.##.####..#
+13216	.##..###.#.....
+13216	.##..###.#.....
+3772 7003 1031 4924 5464 4919 4487 2963 4372 4447 2932 7716 8144 8176 7716 
+width: 15, height: 13
+
+Checking vertical rows
+checking solution at 1
+3772 == 7003
+checking solution at 2
+7003 == 1031
+checking solution at 3
+1031 == 4924
+checking solution at 4
+4924 == 5464
+checking solution at 5
+5464 == 4919
+checking solution at 6
+4919 == 4487
+checking solution at 7
+4487 == 2963
+checking solution at 8
+2963 == 4372
+checking solution at 9
+4372 == 4447
+checking solution at 10
+4447 == 2932
+checking solution at 11
+2932 == 7716
+checking solution at 12
+7716 == 8144
+checking solution at 13
+8144 == 8176
+checking solution at 14
+8176 == 7716
+Checking horizontal rows
+checking solution at 1
+12143 == 24735
+checking solution at 2
+24735 == 21519
+checking solution at 3
+21519 == 27295
+checking solution at 4
+27295 == 12278
+checking solution at 5
+12278 == 16774
+checking solution at 6
+16774 == 9270
+checking solution at 7
+9270 == 18971
+checking solution at 8
+18971 == 28406
+checking solution at 9
+28406 == 27680
+checking solution at 10
+27680 == 23417
+checking solution at 11
+23417 == 13216
+checking solution at 12
+13216 == 13216
+found solution
+solution = 1200
+18	......#..#.
+9	.......#..#
+9	.......#..#
+16	......#....
+2031	######.####
+1456	#.##.##....
+2038	#######.##.
+2025	######.#..#
+2020	######..#..
+2044	#########..
+30	......####.
+1464	#.##.###...
+2027	######.#.##
+1640	##..##.#...
+2032	#######....
+399	..##...####
+12	.......##..
+8124 6044 8118 8118 6044 8124 77028 54011 5571 70738 53778 
+width: 11, height: 17
+
+Checking vertical rows
+checking solution at 1
+8124 == 6044
+checking solution at 2
+6044 == 8118
+checking solution at 3
+8118 == 8118
+6044 == 6044
+8124 == 8124
+found solution
+solution = 3
+3570	.##.#####..#.
+6736	##.#..#.#....
+2997	.#.###.##.#.#
+7042	##.###.....#.
+1209	..#..#.###..#
+6467	##..#.#....##
+6467	##..#.#....##
+1209	..#..#.###..#
+7042	##.###.....#.
+2997	.#.###.##.#.#
+6736	##.#..#.#....
+3314	.##..####..#.
+3314	.##..####..#.
+2772 7903 4387 3612 5848 5947 6343 5419 7471 288 1032 4819 1512 
+width: 13, height: 13
+
+Checking vertical rows
+checking solution at 1
+2772 == 7903
+checking solution at 2
+7903 == 4387
+checking solution at 3
+4387 == 3612
+checking solution at 4
+3612 == 5848
+checking solution at 5
+5848 == 5947
+checking solution at 6
+5947 == 6343
+checking solution at 7
+6343 == 5419
+checking solution at 8
+5419 == 7471
+checking solution at 9
+7471 == 288
+checking solution at 10
+288 == 1032
+checking solution at 11
+1032 == 4819
+checking solution at 12
+4819 == 1512
+Checking horizontal rows
+checking solution at 1
+3570 == 6736
+checking solution at 2
+6736 == 2997
+checking solution at 3
+2997 == 7042
+checking solution at 4
+7042 == 1209
+checking solution at 5
+1209 == 6467
+checking solution at 6
+6467 == 6467
+1209 == 1209
+7042 == 7042
+2997 == 2997
+6736 == 6736
+3570 == 3314
+checking solution at 7
+6467 == 1209
+checking solution at 8
+1209 == 7042
+checking solution at 9
+7042 == 2997
+checking solution at 10
+2997 == 6736
+checking solution at 11
+6736 == 3314
+checking solution at 12
+3314 == 3314
+found solution
+solution = 1200
+17620	#...#..##.#.#..
+21370	#.#..##.####.#.
+21370	#.#..##.####.#.
+17620	#...#..##.#.#..
+10397	.#.#...#..###.#
+263	......#.....###
+1631	....##..#.#####
+25558	##...####.#.##.
+17511	#...#...##..###
+3789	...###.##..##.#
+3277	...##..##..##.#
+1932 72 768 67 1175 794 808 1227 1951 772 2008 851 1279 828 119 
+width: 15, height: 11
+
+Checking vertical rows
+checking solution at 1
+1932 == 72
+checking solution at 2
+72 == 768
+checking solution at 3
+768 == 67
+checking solution at 4
+67 == 1175
+checking solution at 5
+1175 == 794
+checking solution at 6
+794 == 808
+checking solution at 7
+808 == 1227
+checking solution at 8
+1227 == 1951
+checking solution at 9
+1951 == 772
+checking solution at 10
+772 == 2008
+checking solution at 11
+2008 == 851
+checking solution at 12
+851 == 1279
+checking solution at 13
+1279 == 828
+checking solution at 14
+828 == 119
+Checking horizontal rows
+checking solution at 1
+17620 == 21370
+checking solution at 2
+21370 == 21370
+17620 == 17620
+found solution
+solution = 200
+1852	###..####..
+1852	###..####..
+1552	##....#....
+988	.####.###..
+1908	###.###.#..
+1767	##.###..###
+83	....#.#..##
+1316	#.#..#..#..
+287	..#...#####
+752	.#.####....
+1542	##......##.
+1897 2019 1740 162 242 1642 2006 1668 1773 53 52 
+width: 11, height: 11
+
+Checking vertical rows
+checking solution at 1
+1897 == 2019
+checking solution at 2
+2019 == 1740
+checking solution at 3
+1740 == 162
+checking solution at 4
+162 == 242
+checking solution at 5
+242 == 1642
+checking solution at 6
+1642 == 2006
+checking solution at 7
+2006 == 1668
+checking solution at 8
+1668 == 1773
+checking solution at 9
+1773 == 53
+checking solution at 10
+53 == 52
+Checking horizontal rows
+checking solution at 1
+1852 == 1852
+found solution
+solution = 100
+1748	##.##.#.#..
+1868	###.#..##..
+438	..##.##.##.
+1323	#.#..#.#.##
+1474	#.###....#.
+1187	#..#.#...##
+221	...##.###.#
+221	...##.###.#
+1185	#..#.#....#
+1474	#.###....#.
+1323	#.#..#.#.##
+438	..##.##.##.
+1868	###.#..##..
+1748	##.##.#.#..
+934	.###.#..##.
+1509	#.####..#.#
+1509	#.####..#.#
+113115 98332 61687 90031 104091 26983 83496 42576 116287 30948 12099 
+width: 11, height: 17
+
+Checking vertical rows
+checking solution at 1
+113115 == 98332
+checking solution at 2
+98332 == 61687
+checking solution at 3
+61687 == 90031
+checking solution at 4
+90031 == 104091
+checking solution at 5
+104091 == 26983
+checking solution at 6
+26983 == 83496
+checking solution at 7
+83496 == 42576
+checking solution at 8
+42576 == 116287
+checking solution at 9
+116287 == 30948
+checking solution at 10
+30948 == 12099
+Checking horizontal rows
+checking solution at 1
+1748 == 1868
+checking solution at 2
+1868 == 438
+checking solution at 3
+438 == 1323
+checking solution at 4
+1323 == 1474
+checking solution at 5
+1474 == 1187
+checking solution at 6
+1187 == 221
+checking solution at 7
+221 == 221
+1187 == 1185
+checking solution at 8
+221 == 1185
+checking solution at 9
+1185 == 1474
+checking solution at 10
+1474 == 1323
+checking solution at 11
+1323 == 438
+checking solution at 12
+438 == 1868
+checking solution at 13
+1868 == 1748
+checking solution at 14
+1748 == 934
+checking solution at 15
+934 == 1509
+checking solution at 16
+1509 == 1509
+found solution
+solution = 1600
+30840	####....####...
+2116	...#....#...#..
+6240	..##....##.....
+3267	...##..##....##
+1924	....####....#..
+18312	#...####...#...
+8983	.#...##...#.###
+8208	.#........#....
+768	.....##........
+16392	#..........#...
+11095	.#.#.##.#.#.###
+25787	##..#..#.###.##
+12339	.##......##..##
+29883	###.#..#.###.##
+18312	#...####...#...
+6247	..##....##..###
+22440	#.#.####.#.#...
+67757 67192 81947 122946 14381 7493 7493 14381 122946 81979 67192 67757 37954 9338 9338 
+width: 15, height: 17
+
+Checking vertical rows
+checking solution at 1
+67757 == 67192
+checking solution at 2
+67192 == 81947
+checking solution at 3
+81947 == 122946
+checking solution at 4
+122946 == 14381
+checking solution at 5
+14381 == 7493
+checking solution at 6
+7493 == 7493
+14381 == 14381
+122946 == 122946
+81947 == 81979
+checking solution at 7
+7493 == 14381
+checking solution at 8
+14381 == 122946
+checking solution at 9
+122946 == 81979
+checking solution at 10
+81979 == 67192
+checking solution at 11
+67192 == 67757
+checking solution at 12
+67757 == 37954
+checking solution at 13
+37954 == 9338
+checking solution at 14
+9338 == 9338
+found solution
+solution = 14
+484	####..#..
+30	....####.
+6	......##.
+199	.##...###
+199	.##...###
+4	......#..
+30	....####.
+484	####..#..
+218	.##.##.#.
+202	.##..#.#.
+509	#######.#
+29	....###.#
+505	######..#
+4133 4925 4925 4133 2135 2143 8166 3928 775 
+width: 9, height: 13
+
+Checking vertical rows
+checking solution at 1
+4133 == 4925
+checking solution at 2
+4925 == 4925
+4133 == 4133
+found solution
+solution = 2
+1444	#.##.#..#..
+1460	#.##.##.#..
+1460	#.##.##.#..
+388	..##....#..
+394	..##...#.#.
+1083	#....###.##
+397	..##...##.#
+589	.#..#..##.#
+1457	#.##.##...#
+457 2 501 501 2 457 201 30 486 24 15 
+width: 11, height: 9
+
+Checking vertical rows
+checking solution at 1
+457 == 2
+checking solution at 2
+2 == 501
+checking solution at 3
+501 == 501
+2 == 2
+457 == 457
+found solution
+solution = 3
+12276	.#.########.#..
+30734	####.......###.
+23995	#.###.##.###.##
+4105	..#........#..#
+3120	...##....##....
+29262	###..#..#..###.
+28663	##.########.###
+28663	##.########.###
+29262	###..#..#..###.
+207 399 233 470 342 271 326 326 271 342 342 233 399 207 102 
+width: 15, height: 9
+
+Checking vertical rows
+checking solution at 1
+207 == 399
+checking solution at 2
+399 == 233
+checking solution at 3
+233 == 470
+checking solution at 4
+470 == 342
+checking solution at 5
+342 == 271
+checking solution at 6
+271 == 326
+checking solution at 7
+326 == 326
+271 == 271
+342 == 342
+470 == 342
+checking solution at 8
+326 == 271
+checking solution at 9
+271 == 342
+checking solution at 10
+342 == 342
+271 == 233
+checking solution at 11
+342 == 233
+checking solution at 12
+233 == 399
+checking solution at 13
+399 == 207
+checking solution at 14
+207 == 102
+Checking horizontal rows
+checking solution at 1
+12276 == 30734
+checking solution at 2
+30734 == 23995
+checking solution at 3
+23995 == 4105
+checking solution at 4
+4105 == 3120
+checking solution at 5
+3120 == 29262
+checking solution at 6
+29262 == 28663
+checking solution at 7
+28663 == 28663
+29262 == 29262
+found solution
+solution = 700
+193	...##.....#
+816	.##..##....
+486	..####..##.
+1227	#..##..#.##
+1226	#..##..#.#.
+1852	###..####..
+599	.#..#.#.###
+821	.##..##.#.#
+1567	##....#####
+289	..#..#....#
+1561	##....##..#
+727	.#.##.#.###
+198	...##...##.
+1564	##....###..
+1564	##....###..
+198	...##...##.
+727	.#.##.#.###
+14668 36717 51840 94259 95283 51840 36717 14668 20287 30003 75745 
+width: 11, height: 17
+
+Checking vertical rows
+checking solution at 1
+14668 == 36717
+checking solution at 2
+36717 == 51840
+checking solution at 3
+51840 == 94259
+checking solution at 4
+94259 == 95283
+checking solution at 5
+95283 == 51840
+checking solution at 6
+51840 == 36717
+checking solution at 7
+36717 == 14668
+checking solution at 8
+14668 == 20287
+checking solution at 9
+20287 == 30003
+checking solution at 10
+30003 == 75745
+Checking horizontal rows
+checking solution at 1
+193 == 816
+checking solution at 2
+816 == 486
+checking solution at 3
+486 == 1227
+checking solution at 4
+1227 == 1226
+checking solution at 5
+1226 == 1852
+checking solution at 6
+1852 == 599
+checking solution at 7
+599 == 821
+checking solution at 8
+821 == 1567
+checking solution at 9
+1567 == 289
+checking solution at 10
+289 == 1561
+checking solution at 11
+1561 == 727
+checking solution at 12
+727 == 198
+checking solution at 13
+198 == 1564
+checking solution at 14
+1564 == 1564
+198 == 198
+727 == 727
+found solution
+solution = 1400
+4349	#....######.#
+5781	#.##.#..#.#.#
+3910	.####.#...##.
+8152	#######.##...
+6644	##..#####.#..
+113	......###...#
+113	......###...#
+6580	##..##.##.#..
+8152	#######.##...
+3910	.####.#...##.
+5781	#.##.#..#.#.#
+4349	#....######.#
+1652	..##..###.#..
+6966 1848 3613 3613 1848 6966 6107 4579 7159 4626 7471 1032 6342 
+width: 13, height: 13
+
+Checking vertical rows
+checking solution at 1
+6966 == 1848
+checking solution at 2
+1848 == 3613
+checking solution at 3
+3613 == 3613
+1848 == 1848
+6966 == 6966
+found solution
+solution = 3
+1932	..####...##..
+3276	.##..##..##..
+5281	#.#..#.#....#
+6241	##....##....#
+5299	#.#..#.##..##
+6061	#.####.#.##.#
+6957	##.##..#.##.#
+8161	########....#
+798	...##...####.
+126 166 474 271 271 474 162 126 17 397 397 17 126 
+width: 13, height: 9
+
+Checking vertical rows
+checking solution at 1
+126 == 166
+checking solution at 2
+166 == 474
+checking solution at 3
+474 == 271
+checking solution at 4
+271 == 271
+474 == 474
+166 == 162
+checking solution at 5
+271 == 474
+checking solution at 6
+474 == 162
+checking solution at 7
+162 == 126
+checking solution at 8
+126 == 17
+checking solution at 9
+17 == 397
+checking solution at 10
+397 == 397
+17 == 17
+126 == 126
+found solution
+solution = 10
+96	##.....
+22	..#.##.
+119	###.###
+47	.#.####
+57	.###..#
+57	.###..#
+47	.#.####
+80 95 54 15 57 57 31 
+width: 7, height: 7
+
+Checking vertical rows
+checking solution at 1
+80 == 95
+checking solution at 2
+95 == 54
+checking solution at 3
+54 == 15
+checking solution at 4
+15 == 57
+checking solution at 5
+57 == 57
+15 == 31
+checking solution at 6
+57 == 31
+Checking horizontal rows
+checking solution at 1
+96 == 22
+checking solution at 2
+22 == 119
+checking solution at 3
+119 == 47
+checking solution at 4
+47 == 57
+checking solution at 5
+57 == 57
+47 == 47
+found solution
+solution = 500
+4343	#....####.###
+4343	#....####.###
+2331	.#..#...##.##
+5775	#.##.#...####
+2448	.#..##..#....
+2372	.#..#.#...#..
+3864	.####...##...
+5802	#.##.#.#.#.#.
+1598	..##...#####.
+6582	##..##.##.##.
+4329	#....###.#..#
+2381	.#..#.#..##.#
+40	.......#.#...
+2398	.#..#.#.####.
+72	......#..#...
+6554	##..##..##.#.
+2350	.#..#..#.###.
+107202 23723 9984 9984 23723 111298 100460 99281 120202 26495 108969 123787 122976 
+width: 13, height: 17
+
+Checking vertical rows
+checking solution at 1
+107202 == 23723
+checking solution at 2
+23723 == 9984
+checking solution at 3
+9984 == 9984
+23723 == 23723
+107202 == 111298
+checking solution at 4
+9984 == 23723
+checking solution at 5
+23723 == 111298
+checking solution at 6
+111298 == 100460
+checking solution at 7
+100460 == 99281
+checking solution at 8
+99281 == 120202
+checking solution at 9
+120202 == 26495
+checking solution at 10
+26495 == 108969
+checking solution at 11
+108969 == 123787
+checking solution at 12
+123787 == 122976
+Checking horizontal rows
+checking solution at 1
+4343 == 4343
+found solution
+solution = 100
+24532	#.#######.#.#..
+5188	..#.#...#...#..
+16523	#......#...#.##
+26140	##..##....###..
+11743	.#.##.###.#####
+29336	###..#.#..##...
+29320	###..#.#...#...
+27495	##.#.##.##..###
+15762	.####.##..#..#.
+7963	..#####...##.##
+7963	..#####...##.##
+15762	.####.##..#..#.
+27495	##.#.##.##..###
+29320	###..#.#...#...
+29336	###..#.#..##...
+23431 4047 25467 17660 27768 19383 17660 22347 25732 132 20089 7987 27780 5372 5300 
+width: 15, height: 15
+
+Checking vertical rows
+checking solution at 1
+23431 == 4047
+checking solution at 2
+4047 == 25467
+checking solution at 3
+25467 == 17660
+checking solution at 4
+17660 == 27768
+checking solution at 5
+27768 == 19383
+checking solution at 6
+19383 == 17660
+checking solution at 7
+17660 == 22347
+checking solution at 8
+22347 == 25732
+checking solution at 9
+25732 == 132
+checking solution at 10
+132 == 20089
+checking solution at 11
+20089 == 7987
+checking solution at 12
+7987 == 27780
+checking solution at 13
+27780 == 5372
+checking solution at 14
+5372 == 5300
+Checking horizontal rows
+checking solution at 1
+24532 == 5188
+checking solution at 2
+5188 == 16523
+checking solution at 3
+16523 == 26140
+checking solution at 4
+26140 == 11743
+checking solution at 5
+11743 == 29336
+checking solution at 6
+29336 == 29320
+checking solution at 7
+29320 == 27495
+checking solution at 8
+27495 == 15762
+checking solution at 9
+15762 == 7963
+checking solution at 10
+7963 == 7963
+15762 == 15762
+27495 == 27495
+29320 == 29320
+29336 == 29336
+found solution
+solution = 1000
+112361	##.##.##.###.#..#
+113254	##.###.#..##..##.
+58781	.###..#.##..###.#
+83705	#.#...##.#####..#
+20559	..#.#.....#..####
+70902	#...#.#..####.##.
+83887	#.#...####.#.####
+21718	..#.#.#..##.#.##.
+6559	....##..##..#####
+39097	.#..##...#.###..#
+53849	.##.#..#..#.##..#
+53849	.##.#..#..#.##..#
+39097	.#..##...#.###..#
+6559	....##..##..#####
+21718	..#.#.#..##.#.##.
+27392 28732 7577 28672 26367 8294 23425 26904 4418 23527 28313 27428 6911 23934 14275 10179 23934 
+width: 17, height: 15
+
+Checking vertical rows
+checking solution at 1
+27392 == 28732
+checking solution at 2
+28732 == 7577
+checking solution at 3
+7577 == 28672
+checking solution at 4
+28672 == 26367
+checking solution at 5
+26367 == 8294
+checking solution at 6
+8294 == 23425
+checking solution at 7
+23425 == 26904
+checking solution at 8
+26904 == 4418
+checking solution at 9
+4418 == 23527
+checking solution at 10
+23527 == 28313
+checking solution at 11
+28313 == 27428
+checking solution at 12
+27428 == 6911
+checking solution at 13
+6911 == 23934
+checking solution at 14
+23934 == 14275
+checking solution at 15
+14275 == 10179
+checking solution at 16
+10179 == 23934
+Checking horizontal rows
+checking solution at 1
+112361 == 113254
+checking solution at 2
+113254 == 58781
+checking solution at 3
+58781 == 83705
+checking solution at 4
+83705 == 20559
+checking solution at 5
+20559 == 70902
+checking solution at 6
+70902 == 83887
+checking solution at 7
+83887 == 21718
+checking solution at 8
+21718 == 6559
+checking solution at 9
+6559 == 39097
+checking solution at 10
+39097 == 53849
+checking solution at 11
+53849 == 53849
+39097 == 39097
+6559 == 6559
+21718 == 21718
+found solution
+solution = 1100
+120	####...
+95	#.#####
+31	..#####
+120	####...
+67	#....##
+59	.###.##
+36	.#..#..
+119	###.###
+99	##...##
+59	.###.##
+95	#.#####
+1741 1214 1963 1955 793 879 879 
+width: 7, height: 11
+
+Checking vertical rows
+checking solution at 1
+1741 == 1214
+checking solution at 2
+1214 == 1963
+checking solution at 3
+1963 == 1955
+checking solution at 4
+1955 == 793
+checking solution at 5
+793 == 879
+checking solution at 6
+879 == 879
+found solution
+solution = 6
+504	..######...
+516	.#......#..
+1058	#....#...#.
+1543	##......###
+781	.##....##.#
+241	...####...#
+661	.#.#..#.#.#
+612	.#..##..#..
+1026	#........#.
+1387	#.#.##.#.##
+757	.#.####.#.#
+660	.#.#..#.#..
+756	.#.####.#..
+756	.#.####.#..
+660	.#.#..#.#..
+6240 11679 17440 17183 17078 21174 17183 17440 11679 6240 3888 
+width: 11, height: 15
+
+Checking vertical rows
+checking solution at 1
+6240 == 11679
+checking solution at 2
+11679 == 17440
+checking solution at 3
+17440 == 17183
+checking solution at 4
+17183 == 17078
+checking solution at 5
+17078 == 21174
+checking solution at 6
+21174 == 17183
+checking solution at 7
+17183 == 17440
+checking solution at 8
+17440 == 11679
+checking solution at 9
+11679 == 6240
+checking solution at 10
+6240 == 3888
+Checking horizontal rows
+checking solution at 1
+504 == 516
+checking solution at 2
+516 == 1058
+checking solution at 3
+1058 == 1543
+checking solution at 4
+1543 == 781
+checking solution at 5
+781 == 241
+checking solution at 6
+241 == 661
+checking solution at 7
+661 == 612
+checking solution at 8
+612 == 1026
+checking solution at 9
+1026 == 1387
+checking solution at 10
+1387 == 757
+checking solution at 11
+757 == 660
+checking solution at 12
+660 == 756
+checking solution at 13
+756 == 756
+660 == 660
+found solution
+solution = 1300
+26646	##.#......#.##.
+26646	##.#......#.##.
+30751	####......#####
+29262	###..#..#..###.
+2065	...#......#...#
+17826	#...#.##.#...#.
+24966	##....##....##.
+28278	##.###..###.##.
+14361	.###......##..#
+4080	...########....
+29742	###.#....#.###.
+7225	..###....###..#
+21930	#.#.#.##.#.#.#.
+7909 7796 1559 7482 175 552 201 201 552 175 7482 1559 7780 7909 1298 
+width: 15, height: 13
+
+Checking vertical rows
+checking solution at 1
+7909 == 7796
+checking solution at 2
+7796 == 1559
+checking solution at 3
+1559 == 7482
+checking solution at 4
+7482 == 175
+checking solution at 5
+175 == 552
+checking solution at 6
+552 == 201
+checking solution at 7
+201 == 201
+552 == 552
+175 == 175
+7482 == 7482
+1559 == 1559
+7796 == 7780
+checking solution at 8
+201 == 552
+checking solution at 9
+552 == 175
+checking solution at 10
+175 == 7482
+checking solution at 11
+7482 == 1559
+checking solution at 12
+1559 == 7780
+checking solution at 13
+7780 == 7909
+checking solution at 14
+7909 == 1298
+Checking horizontal rows
+checking solution at 1
+26646 == 26646
+found solution
+solution = 100
+65019	.######.######.##
+46178	.#.##.#...##...#.
+100254	##....####..####.
+52227	.##..##........##
+84725	#.#..#.#.####.#.#
+112398	##.##.###....###.
+34058	.#....#.#....#.#.
+46346	.#.##.#.#....#.#.
+18937	..#..#..######..#
+130671	########..##.####
+12288	...##............
+96773	#.####.#......#.#
+18937	..#..#..######..#
+1418 7912 4891 6318 6318 4891 7912 1418 5361 5393 6425 6425 5393 5369 1418 7912 4891 
+width: 17, height: 13
+
+Checking vertical rows
+checking solution at 1
+1418 == 7912
+checking solution at 2
+7912 == 4891
+checking solution at 3
+4891 == 6318
+checking solution at 4
+6318 == 6318
+4891 == 4891
+7912 == 7912
+1418 == 1418
+found solution
+solution = 4
+704	.#.##......
+192	...##......
+308	..#..##.#..
+334	..#.#..###.
+68	....#...#..
+1331	#.#..##..##
+215	...##.#.###
+370	..#.###..#.
+370	..#.###..#.
+215	...##.#.###
+1331	#.#..##..##
+68	....#...#..
+334	..#.#..###.
+132 4096 1717 6216 7035 1204 1276 513 1867 765 204 
+width: 11, height: 13
+
+Checking vertical rows
+checking solution at 1
+132 == 4096
+checking solution at 2
+4096 == 1717
+checking solution at 3
+1717 == 6216
+checking solution at 4
+6216 == 7035
+checking solution at 5
+7035 == 1204
+checking solution at 6
+1204 == 1276
+checking solution at 7
+1276 == 513
+checking solution at 8
+513 == 1867
+checking solution at 9
+1867 == 765
+checking solution at 10
+765 == 204
+Checking horizontal rows
+checking solution at 1
+704 == 192
+checking solution at 2
+192 == 308
+checking solution at 3
+308 == 334
+checking solution at 4
+334 == 68
+checking solution at 5
+68 == 1331
+checking solution at 6
+1331 == 215
+checking solution at 7
+215 == 370
+checking solution at 8
+370 == 370
+215 == 215
+1331 == 1331
+68 == 68
+334 == 334
+found solution
+solution = 800
+19411	#..#.####.#..##
+20082	#..###..###..#.
+21931	#.#.#.##.#.#.##
+26023	##..#.##.#..###
+13900	.##.##..#..##..
+4680	..#..#..#..#...
+25639	##..#....#..###
+13357	.##.#....#.##.#
+2449	...#..##..#...#
+1057	....#....#....#
+576	.....#..#......
+5160	..#.#....#.#...
+6168	..##......##...
+6168	..##......##...
+5160	..#.#....#.#...
+576	.....#..#......
+1057	....#....#....#
+123904 13824 23100 98584 63141 104514 90368 90368 104514 59045 98584 23100 13824 123904 92033 
+width: 15, height: 17
+
+Checking vertical rows
+checking solution at 1
+123904 == 13824
+checking solution at 2
+13824 == 23100
+checking solution at 3
+23100 == 98584
+checking solution at 4
+98584 == 63141
+checking solution at 5
+63141 == 104514
+checking solution at 6
+104514 == 90368
+checking solution at 7
+90368 == 90368
+104514 == 104514
+63141 == 59045
+checking solution at 8
+90368 == 104514
+checking solution at 9
+104514 == 59045
+checking solution at 10
+59045 == 98584
+checking solution at 11
+98584 == 23100
+checking solution at 12
+23100 == 13824
+checking solution at 13
+13824 == 123904
+checking solution at 14
+123904 == 92033
+Checking horizontal rows
+checking solution at 1
+19411 == 20082
+checking solution at 2
+20082 == 21931
+checking solution at 3
+21931 == 26023
+checking solution at 4
+26023 == 13900
+checking solution at 5
+13900 == 4680
+checking solution at 6
+4680 == 25639
+checking solution at 7
+25639 == 13357
+checking solution at 8
+13357 == 2449
+checking solution at 9
+2449 == 1057
+checking solution at 10
+1057 == 576
+checking solution at 11
+576 == 5160
+checking solution at 12
+5160 == 6168
+checking solution at 13
+6168 == 6168
+5160 == 5160
+576 == 576
+1057 == 1057
+found solution
+solution = 1300
+50	.##..#.
+50	.##..#.
+87	#.#.###
+24	..##...
+34	.#...#.
+124	#####..
+87	#.#.###
+87	#.#.###
+124	#####..
+34	.#...#.
+8	...#...
+316 1638 1980 165 316 1882 280 
+width: 7, height: 11
+
+Checking vertical rows
+checking solution at 1
+316 == 1638
+checking solution at 2
+1638 == 1980
+checking solution at 3
+1980 == 165
+checking solution at 4
+165 == 316
+checking solution at 5
+316 == 1882
+checking solution at 6
+1882 == 280
+Checking horizontal rows
+checking solution at 1
+50 == 50
+found solution
+solution = 100
+1831	###..#..###
+35	.....#...##
+20	......#.#..
+324	..#.#...#..
+239	...###.####
+1734	##.##...##.
+455	..###...###
+1577	##...#.#..#
+1458	#.##.##..#.
+276	..#...#.#..
+164	...#.#..#..
+164	...#.#..#..
+276	..#...#.#..
+4272 4256 4697 470 960 6454 1049 288 6095 6608 6496 
+width: 11, height: 13
+
+Checking vertical rows
+checking solution at 1
+4272 == 4256
+checking solution at 2
+4256 == 4697
+checking solution at 3
+4697 == 470
+checking solution at 4
+470 == 960
+checking solution at 5
+960 == 6454
+checking solution at 6
+6454 == 1049
+checking solution at 7
+1049 == 288
+checking solution at 8
+288 == 6095
+checking solution at 9
+6095 == 6608
+checking solution at 10
+6608 == 6496
+Checking horizontal rows
+checking solution at 1
+1831 == 35
+checking solution at 2
+35 == 20
+checking solution at 3
+20 == 324
+checking solution at 4
+324 == 239
+checking solution at 5
+239 == 1734
+checking solution at 6
+1734 == 455
+checking solution at 7
+455 == 1577
+checking solution at 8
+1577 == 1458
+checking solution at 9
+1458 == 276
+checking solution at 10
+276 == 164
+checking solution at 11
+164 == 164
+276 == 276
+found solution
+solution = 1100
+12	.....##..
+18	....#..#.
+12	.....##..
+301	#..#.##.#
+481	####....#
+192	.##......
+315	#..###.##
+13 6 6 13 33 89 88 33 13 
+width: 9, height: 7
+
+Checking vertical rows
+checking solution at 1
+13 == 6
+checking solution at 2
+6 == 6
+13 == 13
+found solution
+solution = 2
+2495	.#..##.######
+5334	#.#..##.#.##.
+5334	#.#..##.#.##.
+2495	.#..##.######
+3872	.####..#.....
+2729	.#.#.#.#.#..#
+7714	####...#...#.
+49 79 53 7 76 122 48 79 120 74 120 121 74 
+width: 13, height: 7
+
+Checking vertical rows
+checking solution at 1
+49 == 79
+checking solution at 2
+79 == 53
+checking solution at 3
+53 == 7
+checking solution at 4
+7 == 76
+checking solution at 5
+76 == 122
+checking solution at 6
+122 == 48
+checking solution at 7
+48 == 79
+checking solution at 8
+79 == 120
+checking solution at 9
+120 == 74
+checking solution at 10
+74 == 120
+checking solution at 11
+120 == 121
+checking solution at 12
+121 == 74
+Checking horizontal rows
+checking solution at 1
+2495 == 5334
+checking solution at 2
+5334 == 5334
+2495 == 2495
+found solution
+solution = 200
+72	#..#...
+8	...#...
+58	.###.#.
+22	..#.##.
+21	..#.#.#
+54	.##.##.
+54	.##.##.
+21	..#.#.#
+22	..#.##.
+58	.###.#.
+8	...#...
+72	#..#...
+14	...###.
+67	#....##
+63	.######
+16394 4897 8161 28733 4037 7015 1155 
+width: 7, height: 15
+
+Checking vertical rows
+checking solution at 1
+16394 == 4897
+checking solution at 2
+4897 == 8161
+checking solution at 3
+8161 == 28733
+checking solution at 4
+28733 == 4037
+checking solution at 5
+4037 == 7015
+checking solution at 6
+7015 == 1155
+Checking horizontal rows
+checking solution at 1
+72 == 8
+checking solution at 2
+8 == 58
+checking solution at 3
+58 == 22
+checking solution at 4
+22 == 21
+checking solution at 5
+21 == 54
+checking solution at 6
+54 == 54
+21 == 21
+22 == 22
+58 == 58
+8 == 8
+72 == 72
+found solution
+solution = 600
+197	.##...#.#
+481	####....#
+61	...####.#
+303	#..#.####
+219	.##.##.##
+501	#####.#.#
+31	....#####
+218	.##.##.#.
+205	.##..##.#
+303	#..#.####
+198	.##...##.
+295	#..#..###
+295	#..#..###
+2699 6580 6580 3723 1504 1912 5855 879 8155 
+width: 9, height: 13
+
+Checking vertical rows
+checking solution at 1
+2699 == 6580
+checking solution at 2
+6580 == 6580
+2699 == 3723
+checking solution at 3
+6580 == 3723
+checking solution at 4
+3723 == 1504
+checking solution at 5
+1504 == 1912
+checking solution at 6
+1912 == 5855
+checking solution at 7
+5855 == 879
+checking solution at 8
+879 == 8155
+Checking horizontal rows
+checking solution at 1
+197 == 481
+checking solution at 2
+481 == 61
+checking solution at 3
+61 == 303
+checking solution at 4
+303 == 219
+checking solution at 5
+219 == 501
+checking solution at 6
+501 == 31
+checking solution at 7
+31 == 218
+checking solution at 8
+218 == 205
+checking solution at 9
+205 == 303
+checking solution at 10
+303 == 198
+checking solution at 11
+198 == 295
+checking solution at 12
+295 == 295
+found solution
+solution = 1200
+17	..#...#
+17	..#...#
+63	.######
+53	.##.#.#
+42	.#.#.#.
+70	#...##.
+1	......#
+69	#...#.#
+69	#...#.#
+1	......#
+70	#...##.
+42	.#.#.#.
+49	.##...#
+63	.######
+17	..#...#
+720 7182 30727 5130 6866 5658 31207 
+width: 7, height: 15
+
+Checking vertical rows
+checking solution at 1
+720 == 7182
+checking solution at 2
+7182 == 30727
+checking solution at 3
+30727 == 5130
+checking solution at 4
+5130 == 6866
+checking solution at 5
+6866 == 5658
+checking solution at 6
+5658 == 31207
+Checking horizontal rows
+checking solution at 1
+17 == 17
+found solution
+solution = 100
+118	###.##.
+24	..##...
+41	.#.#..#
+40	.#.#...
+24	..##...
+118	###.##.
+113	###...#
+32	.#.....
+69	#...#.#
+13	...##.#
+13	...##.#
+69	#...#.#
+32	.#.....
+113	###...#
+118	###.##.
+17227 23431 26371 15408 17017 16897 4474 
+width: 7, height: 15
+
+Checking vertical rows
+checking solution at 1
+17227 == 23431
+checking solution at 2
+23431 == 26371
+checking solution at 3
+26371 == 15408
+checking solution at 4
+15408 == 17017
+checking solution at 5
+17017 == 16897
+checking solution at 6
+16897 == 4474
+Checking horizontal rows
+checking solution at 1
+118 == 24
+checking solution at 2
+24 == 41
+checking solution at 3
+41 == 40
+checking solution at 4
+40 == 24
+checking solution at 5
+24 == 118
+checking solution at 6
+118 == 113
+checking solution at 7
+113 == 32
+checking solution at 8
+32 == 69
+checking solution at 9
+69 == 13
+checking solution at 10
+13 == 13
+69 == 69
+32 == 32
+113 == 113
+118 == 118
+found solution
+solution = 1000
+18	....#..#.
+447	##.######
+417	##.#....#
+115	..###..##
+77	..#..##.#
+12	.....##..
+429	##.#.##.#
+109	..##.##.#
+460	###..##..
+197 197 51 230 416 159 159 416 246 
+width: 9, height: 9
+
+Checking vertical rows
+checking solution at 1
+197 == 197
+found solution
+solution = 1
+7386	###..##.##.#.
+7387	###..##.##.##
+8107	######.#.#.##
+7829	####.#..#.#.#
+695	...#.#.##.###
+6560	##..##.#.....
+422	....##.#..##.
+20	........#.#..
+534	...#....#.##.
+7648	###.####.....
+791	...##...#.###
+7772	####..#.###..
+294	....#..#..##.
+7109	##.####...#.#
+514	...#.......#.
+31274 31274 30760 7259 4918 32546 24618 5924 27864 28680 3550 30037 15378 
+width: 13, height: 15
+
+Checking vertical rows
+checking solution at 1
+31274 == 31274
+found solution
+solution = 1
+20	..#.#..
+31	..#####
+31	..#####
+20	..#.#..
+100	##..#..
+11	...#.##
+63	.######
+57	.###..#
+61	.####.#
+63	.######
+11	...#.##
+64 94 1950 831 2006 819 831 
+width: 7, height: 11
+
+Checking vertical rows
+checking solution at 1
+64 == 94
+checking solution at 2
+94 == 1950
+checking solution at 3
+1950 == 831
+checking solution at 4
+831 == 2006
+checking solution at 5
+2006 == 819
+checking solution at 6
+819 == 831
+Checking horizontal rows
+checking solution at 1
+20 == 31
+checking solution at 2
+31 == 31
+20 == 20
+found solution
+solution = 200
+62419	.####..####.#..##
+103028	##..#..#..###.#..
+70187	#...#..#...#.#.##
+45913	.#.##..##.#.##..#
+77088	#..#.##.#..#.....
+37440	.#..#..#..#......
+48968	.#.######.#..#...
+111464	##.##..##.##.#...
+57823	.###....###.#####
+210 431 257 311 494 20 20 494 311 257 431 210 417 103 129 321 353 
+width: 17, height: 9
+
+Checking vertical rows
+checking solution at 1
+210 == 431
+checking solution at 2
+431 == 257
+checking solution at 3
+257 == 311
+checking solution at 4
+311 == 494
+checking solution at 5
+494 == 20
+checking solution at 6
+20 == 20
+494 == 494
+311 == 311
+257 == 257
+431 == 431
+210 == 210
+found solution
+solution = 6
+1836	..###..#.##..
+1832	..###..#.#...
+671	...#.#..#####
+8053	#####.###.#.#
+661	...#.#..#.#.#
+7994	#####..###.#.
+6196	##.....##.#..
+11 11 106 126 106 20 8 107 31 114 93 18 28 
+width: 13, height: 7
+
+Checking vertical rows
+checking solution at 1
+11 == 11
+found solution
+solution = 1
+6	....##.
+47	.#.####
+63	.######
+41	.#.#..#
+89	#.##..#
+15	...####
+63	.######
+70	#...##.
+102	##..##.
+70	#...##.
+70	#...##.
+63	.######
+15	...####
+316 3666 1346 4035 7423 7423 4035 
+width: 7, height: 13
+
+Checking vertical rows
+checking solution at 1
+316 == 3666
+checking solution at 2
+3666 == 1346
+checking solution at 3
+1346 == 4035
+checking solution at 4
+4035 == 7423
+checking solution at 5
+7423 == 7423
+4035 == 4035
+found solution
+solution = 5
+390	##....##.
+396	##...##..
+445	##.####.#
+102	..##..##.
+102	..##..##.
+437	##.##.#.#
+396	##...##..
+390	##....##.
+27	....##.##
+71	..#...###
+54	...##.##.
+35	...#...##
+498	#####..#.
+7393 7393 777 1927 1173 3152 8172 4927 1178 
+width: 9, height: 13
+
+Checking vertical rows
+checking solution at 1
+7393 == 7393
+found solution
+solution = 1
+106	##.#.#.
+74	#..#.#.
+17	..#...#
+104	##.#...
+8	...#...
+56	.###...
+46	.#.###.
+36	.#..#..
+36	.#..#..
+46	.#.###.
+56	.###...
+8	...#...
+104	##.#...
+17	..#...#
+74	#..#.#.
+26629 19444 4626 28477 480 24865 4098 
+width: 7, height: 15
+
+Checking vertical rows
+checking solution at 1
+26629 == 19444
+checking solution at 2
+19444 == 4626
+checking solution at 3
+4626 == 28477
+checking solution at 4
+28477 == 480
+checking solution at 5
+480 == 24865
+checking solution at 6
+24865 == 4098
+Checking horizontal rows
+checking solution at 1
+106 == 74
+checking solution at 2
+74 == 17
+checking solution at 3
+17 == 104
+checking solution at 4
+104 == 8
+checking solution at 5
+8 == 56
+checking solution at 6
+56 == 46
+checking solution at 7
+46 == 36
+checking solution at 8
+36 == 36
+46 == 46
+56 == 56
+8 == 8
+104 == 104
+17 == 17
+74 == 74
+found solution
+solution = 800
+225	.###....#
+307	#..##..##
+383	#.#######
+320	#.#......
+396	##...##..
+97	..##....#
+268	#....##..
+448	###......
+350	#.#.####.
+30	....####.
+499	#####..##
+192	.##......
+97	..##....#
+493	####.##.#
+237	.###.##.#
+15826 17563 23263 29207 12400 5475 5475 12400 29207 
+width: 9, height: 15
+
+Checking vertical rows
+checking solution at 1
+15826 == 17563
+checking solution at 2
+17563 == 23263
+checking solution at 3
+23263 == 29207
+checking solution at 4
+29207 == 12400
+checking solution at 5
+12400 == 5475
+checking solution at 6
+5475 == 5475
+12400 == 12400
+29207 == 29207
+found solution
+solution = 6
+56118	.##.##.##..##.##.
+55290	.##.#.########.#.
+57054	.##.####.##.####.
+81727	#..######..######
+816	.......##..##....
+20476	..#..##########..
+5850	....#.##.##.##.#.
+77293	#..#.##.####.##.#
+123913	####..#......#..#
+35 449 457 35 484 362 239 508 442 206 206 442 508 239 362 484 35 
+width: 17, height: 9
+
+Checking vertical rows
+checking solution at 1
+35 == 449
+checking solution at 2
+449 == 457
+checking solution at 3
+457 == 35
+checking solution at 4
+35 == 484
+checking solution at 5
+484 == 362
+checking solution at 6
+362 == 239
+checking solution at 7
+239 == 508
+checking solution at 8
+508 == 442
+checking solution at 9
+442 == 206
+checking solution at 10
+206 == 206
+442 == 442
+508 == 508
+239 == 239
+362 == 362
+484 == 484
+35 == 35
+found solution
+solution = 10
+5068	#..####..##..
+2450	.#..##..#..#.
+2066	.#......#..#.
+1633	..##..##....#
+576	...#..#......
+4684	#..#..#..##..
+2066	.#......#..#.
+4108	#........##..
+960	...####......
+3699	.###..###..##
+576	...#..#......
+5068	#..####..##..
+1057	..#....#....#
+4109	#........##.#
+3699	.###..###..##
+17034 12577 2085 20089 24648 24648 20089 2085 12577 17034 17034 12577 2087 
+width: 13, height: 15
+
+Checking vertical rows
+checking solution at 1
+17034 == 12577
+checking solution at 2
+12577 == 2085
+checking solution at 3
+2085 == 20089
+checking solution at 4
+20089 == 24648
+checking solution at 5
+24648 == 24648
+20089 == 20089
+2085 == 2085
+12577 == 12577
+17034 == 17034
+found solution
+solution = 5
+85152	#.#..##..#.#.....
+85164	#.#..##..#.#.##..
+11538	...#.##.#...#..#.
+32891	.#........####.##
+93603	#.##.##.##.#...##
+24194	..#.####.#.....#.
+126459	####.##.######.##
+119527	###.#..#.###..###
+28041	..##.##.##...#..#
+28041	..##.##.##...#..#
+119527	###.#..#.###..###
+1625 153 1663 342 41 1910 1910 41 342 1663 153 1753 400 662 521 505 223 
+width: 17, height: 11
+
+Checking vertical rows
+checking solution at 1
+1625 == 153
+checking solution at 2
+153 == 1663
+checking solution at 3
+1663 == 342
+checking solution at 4
+342 == 41
+checking solution at 5
+41 == 1910
+checking solution at 6
+1910 == 1910
+41 == 41
+342 == 342
+1663 == 1663
+153 == 153
+1625 == 1753
+checking solution at 7
+1910 == 41
+checking solution at 8
+41 == 342
+checking solution at 9
+342 == 1663
+checking solution at 10
+1663 == 153
+checking solution at 11
+153 == 1753
+checking solution at 12
+1753 == 400
+checking solution at 13
+400 == 662
+checking solution at 14
+662 == 521
+checking solution at 15
+521 == 505
+checking solution at 16
+505 == 223
+Checking horizontal rows
+checking solution at 1
+85152 == 85164
+checking solution at 2
+85164 == 11538
+checking solution at 3
+11538 == 32891
+checking solution at 4
+32891 == 93603
+checking solution at 5
+93603 == 24194
+checking solution at 6
+24194 == 126459
+checking solution at 7
+126459 == 119527
+checking solution at 8
+119527 == 28041
+checking solution at 9
+28041 == 28041
+119527 == 119527
+found solution
+solution = 900
+
+total: 36041
