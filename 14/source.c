@@ -5,7 +5,7 @@
 #include <math.h>
 #include "../misc/misc.h"
 
-#define DEBUG
+//#define DEBUG
 
 #ifdef DEBUG
 	#define dprintf(...) printf(__VA_ARGS__)
@@ -261,7 +261,7 @@ void solution() {
 	while (1) {
 		roll();
 		uint hash_in_set = in_set();
-		printf("%lu\n", hash_in_set);
+		dprintf("%lu\n", hash_in_set);
 		add_to_set();
 		if (!loop_start && hash_in_set) {
 			loop_start = hash_in_set;
@@ -282,11 +282,11 @@ void solution() {
 		}
 	}
 
-	printf("pre-loop %ld\n", pre_loop);
-	printf("loop length %ld\n", loop_length);
+	dprintf("pre-loop %ld\n", pre_loop);
+	dprintf("loop length %ld\n", loop_length);
 
 	uint more_iters = (1000000000-pre_loop)%loop_length - 1;
-	printf("more_iters %ld\n", more_iters);
+	dprintf("more_iters %ld\n", more_iters);
 	while(more_iters--) {
 		roll();
 	}
