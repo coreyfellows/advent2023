@@ -200,6 +200,45 @@ uint calculate_score_1() {
 	return total_score;
 }
 
+struct Set {
+	uint hash;
+	struct Set* next;
+} *set = NULL;
+
+
+uint _in_set(uint h, struct Set* _set) {
+	if(!_set) return 0;
+	if (_set->hash == h) return _set->hash;
+	return _in_set(h, _set->next);
+}
+
+uint in_set() {
+	return _in_set(hash(grid, WIDTH*HEIGHT), set);
+}
+
+
+void add_to_set() {
+	if (!in_set()) {
+		uint h = hash(grid, WIDTH*HEIGHT);
+		struct Set* tmp = set;
+		set = malloc(sizeof(struct Set));
+		set->next = tmp;
+		set->hash = h;
+	}
+}
+
+void _free_set(struct Set* _set) {
+	if (_set && _set->next) {
+		_free_set(_set->next);
+	}
+	free(_set);
+}
+
+void free_set() {
+	_free_set(set);
+}
+
+
 void solution() {
 	char* lineptr = NULL;
 	size_t n = 0;
@@ -215,15 +254,44 @@ void solution() {
 	}
 
 	printf("total score part 1: %ld\n", calculate_score_1());
-	printf("total score part 2: %d\n", 102657);
 	fclose(f);
-	printf("%ld\n", (1000000000 - 121)%21); //  its this element in the loop.
-	uint current_score = calculate_score();
+	uint loop_start = 0;
+	uint loop_length = 0;
+	uint pre_loop = 0;
 	while (1) {
 		roll();
-		current_score = calculate_score();
-		printf("%ld\n", current_score);
+		uint hash_in_set = in_set();
+		printf("%lu\n", hash_in_set);
+		add_to_set();
+		if (!loop_start && hash_in_set) {
+			loop_start = hash_in_set;
+			loop_length++;
+			continue;
+		}
+		pre_loop++;
+
+		if (loop_start && loop_start != hash_in_set) {
+			loop_length++;
+			continue;
+		}
+
+		if (loop_start && loop_start == hash_in_set)
+		{
+
+			break;
+		}
 	}
+
+	printf("pre-loop %ld\n", pre_loop);
+	printf("loop length %ld\n", loop_length);
+
+	uint more_iters = (1000000000-pre_loop)%loop_length - 1;
+	printf("more_iters %ld\n", more_iters);
+	while(more_iters--) {
+		roll();
+	}
+	printf("total score part 2: %ld\n", calculate_score());
+
 
 
 }
@@ -231,7 +299,9 @@ void solution() {
 int main(void) {
 	grid = malloc(WIDTH*HEIGHT);
 	solution();
+
 	free(grid);
+	free_set();
 	return 0;
 }
 
