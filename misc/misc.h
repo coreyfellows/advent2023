@@ -1,4 +1,5 @@
 #pragma once
+#include <stdio.h>
 #define uint unsigned long
 
 uint is_alpha(char c);
@@ -11,3 +12,4 @@ uint ipow(uint a, uint b);
 // returns length of the string representation of the number.
 uint parse_uint(char* start, uint* result);
 uint parse_int(char* start, long* result);
+uint hash(unsigned char *str, uint length);

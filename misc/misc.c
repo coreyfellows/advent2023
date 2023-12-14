@@ -66,3 +66,18 @@ uint parse_int(char* start, long* result) {
 	*result *= multiplier;
 	return length;
 }
+
+
+uint hash(unsigned char *str, uint length)
+{
+	uint hash = 5381;
+	int c;
+
+	while (length){
+		c = *str++;
+		length--;
+		hash = ((hash << 5) + hash) + c; /* hash * 33 + c */
+	}
+
+	return hash;
+}
