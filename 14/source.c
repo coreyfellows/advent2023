@@ -25,7 +25,7 @@
 #endif
 
 char* grid;
-char* get_element(int x, int y) {
+char*const get_element(int x, int y) {
 	if (x < 0 || x >= WIDTH) {
 		return NULL;
 	}
@@ -34,6 +34,22 @@ char* get_element(int x, int y) {
 		return NULL;
 	}
 	return grid+ x + y*WIDTH;
+}
+
+// one roll function, but we use different ways to get values
+// from the grid to simulate rotating the grid.
+char*const (*get_element_north)(int x, int y) = get_element;
+
+char*const get_element_west(int x, int y) {
+	return get_element(y, x);
+}
+
+char*const get_element_south(int x, int y) {
+	return get_element(x, HEIGHT-y-1);
+}
+
+char*const get_element_east(int x, int y) {
+	return get_element(HEIGHT-y-1, x);
 }
 
 void render() {
@@ -49,15 +65,16 @@ void render() {
 	#endif
 }
 
-void roll() {
 
-	//North
+
+void roll( char*const (*get_fn)(int x, int y) ) {
+	// assume get_fn is a normal orientation and roll north.
 	for (uint x = 0; x < WIDTH; ++x) {
 		uint score = 0;
 		uint top_idx = 0;
 		uint boulder_count = 0;
 		for (uint y = 0; y <= HEIGHT; ++y) {
-			char* element = get_element(x,y);
+			char* element = get_fn(x,y);
 			if (element && *element == 'O'){
 				boulder_count++;
 			}
@@ -66,96 +83,22 @@ void roll() {
 					for (top_idx; top_idx < y; ++top_idx) {
 						if(boulder_count) {
 							boulder_count--;
-							*get_element(x, top_idx) = 'O';
+							*get_fn(x, top_idx) = 'O';
 						} else {
-							*get_element(x, top_idx) = '.';
+							*get_fn(x, top_idx) = '.';
 						}
 					}
 				}
 				top_idx = y + 1;
-				boulder_count = 0;
 			}
 		}
 	}
-//	West
-	for (uint x = 0; x < WIDTH; ++x) {
-		uint score = 0;
-		uint top_idx = 0;
-		uint boulder_count = 0;
-		for (uint y = 0; y <= HEIGHT; ++y) {
-			char* element = get_element(y,x);
-			if (element && *element == 'O'){
-				boulder_count++;
-			}
-			if (element == NULL || *element == '#') {
-				if (boulder_count) {
-					for (top_idx; top_idx < y; ++top_idx) {
-						if(boulder_count) {
-							boulder_count--;
-							*get_element(top_idx, x) = 'O';
-						} else {
-							*get_element(top_idx, x) = '.';
-						}
-					}
-				}
-				top_idx = y + 1;
-				boulder_count = 0;
-			}
-		}
-	}
+}
 
-	//south
-	for (int x = 0; x < WIDTH; ++x) {
-		int top_idx = HEIGHT-1;
-		int boulder_count = 0;
-		for (int y = HEIGHT-1; y >= -1; --y) {
-			char* element = get_element(x,y);
-			if (element && *element == 'O'){
-				boulder_count++;
-			}
-			if (element == NULL || *element == '#') {
-
-				if (boulder_count) {
-					for (top_idx; top_idx > y; --top_idx) {
-						if(boulder_count) {
-							boulder_count--;
-							*get_element(x, top_idx) = 'O';
-						} else {
-							*get_element(x, top_idx) = '.';
-						}
-					}
-				}
-				top_idx = y + -1;
-				boulder_count = 0;
-			}
-		}
-	}
-
-	//East
-	for (int x = 0; x < WIDTH; ++x) {
-		int top_idx = HEIGHT-1;
-		int boulder_count = 0;
-		for (int y = HEIGHT-1; y >= -1; --y) {
-			char* element = get_element(y,x);
-			if (element && *element == 'O'){
-				boulder_count++;
-			}
-			if (element == NULL || *element == '#') {
-
-				if (boulder_count) {
-					for (top_idx; top_idx > y; --top_idx) {
-						if(boulder_count) {
-							boulder_count--;
-							*get_element(top_idx, x) = 'O';
-						} else {
-							*get_element(top_idx, x) = '.';
-						}
-					}
-				}
-				top_idx = y + -1;
-				boulder_count = 0;
-			}
-		}
+void roll_x_4() {
+	char*const (*directions[4])(int, int) = {get_element_north, get_element_west, get_element_south, get_element_east };
+	for (int i = 0; i < 4; ++i){
+		roll(directions[i]);
 	}
 }
 
@@ -191,7 +134,6 @@ uint calculate_score_1() {
 					boulder_count--;
 				}
 				top_idx = HEIGHT - (y + 1);
-				boulder_count = 0;
 			}
 		}
 		//printf("column score: %ld\n", score);
@@ -258,8 +200,11 @@ void solution() {
 	uint loop_start = 0;
 	uint loop_length = 0;
 	uint pre_loop = 0;
+
+	//nwse
 	while (1) {
-		roll();
+		pre_loop++;
+		roll_x_4();
 		uint hash_in_set = in_set();
 		dprintf("%lu\n", hash_in_set);
 		add_to_set();
@@ -268,7 +213,6 @@ void solution() {
 			loop_length++;
 			continue;
 		}
-		pre_loop++;
 
 		if (loop_start && loop_start != hash_in_set) {
 			loop_length++;
@@ -277,7 +221,6 @@ void solution() {
 
 		if (loop_start && loop_start == hash_in_set)
 		{
-
 			break;
 		}
 	}
@@ -285,15 +228,12 @@ void solution() {
 	dprintf("pre-loop %ld\n", pre_loop);
 	dprintf("loop length %ld\n", loop_length);
 
-	uint more_iters = (1000000000-pre_loop)%loop_length - 1;
+	uint more_iters = (1000000000-pre_loop)%loop_length;
 	dprintf("more_iters %ld\n", more_iters);
 	while(more_iters--) {
-		roll();
+		roll_x_4();
 	}
 	printf("total score part 2: %ld\n", calculate_score());
-
-
-
 }
 
 int main(void) {
