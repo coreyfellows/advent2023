@@ -217,7 +217,7 @@ void solution() {
 	printf("total score part 1: %ld\n", calculate_score_1());
 	printf("total score part 2: %d\n", 102657);
 	fclose(f);
-	printf("%ld\n", (1000000000 - 137)%21); //  its this element in the loop.
+	printf("%ld\n", (1000000000 - 121)%21); //  its this element in the loop.
 	uint current_score = calculate_score();
 	while (1) {
 		roll();
