@@ -44,14 +44,12 @@ uint64_t advent_hash_2(const char** str, uint64_t* label_hash) {
 	uint64_t value = 0;
 	uint64_t position = 0;
 	while(**str && **str >= 'a' && **str <= 'z') {
-		//printf("%c", **str);
 		label[position++] = **str;
 		value = (17*(value+**str))%256;
 		++*str;
 	}
 	label[position] = 0;
 	*label_hash = hash(label, position);
-	//printf("%s = box: %ld hash %ld\n", label, value, *label_hash);
 	return value;
 }
 
@@ -98,6 +96,7 @@ void add_lens(uint64_t i, uint64_t label, char focal_length) {
 			head->next->focal_length = focal_length;
 			head->next->next = NULL;
 			head->next->label = label;
+			return;
 		}
 		head = head->next;
 	}
