@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
+#include <sys/time.h>
 
 #include <math.h>
 #include "../misc/misc.h"
@@ -40,7 +41,13 @@ void solution() {
 }
 
 int main(void) {
+
+	struct timeval t0, t1;
+	gettimeofday(&t0, 0);
 	solution();
+	gettimeofday(&t1, 0);
+	long elapsed = (t1.tv_sec-t0.tv_sec)*1000000 + t1.tv_usec-t0.tv_usec;
+	printf("%ld", elapsed);
 	return 0;
 }
 
