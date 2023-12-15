@@ -179,7 +179,6 @@ void solution() {
 		if(box_score) dprintf("Box %ld score: %ld\n", i, box_score);
 		total_2+=box_score;
 
-		//render_box(i);
 	}
 	printf("Solution 1: %ld\n", total);
 	printf("Solution 2: %ld\n", total_2);
